@@ -1,0 +1,51 @@
+
+--------------------- dav 4 (digitalizacia) ---------------------
+
+shp -> layer(zemot) -> create layer -> new shapefile layer..... zone wgs 38n
+
+---------------------------------------------------------------
+
+
+------------------- dav 5 (GPS) ---------------------
+
+gps folders:
+
+GPS -> excel .csv files
+Raster -> GeoTaggedPhotos
+Shp -> .shp files
+
+plugin ImportPhotos
+
+layer -> data source manager -> delimeted text -> select .csv (excel) file -> select zone (zone = file name) -> add;
+then export: export -> save features as -> ERSI Shapefile -> name as zone -> uncheck checkbox in the bottom -> ok
+then  remove layer.
+
+
+------------------------------------------------------------------------------------
+
+
+
+
+
+--------------------- dav 6 (db) ---------------------
+
+folders: Geodatabase, Project, Shp
+
+plugin DB Manager (may be already installed) 
+
+then right click on top navbar -> check "Database Toolbar"
+
+spacialLite -> create database -> create in Geodatabase
+
+then db manager -> spacialLite -> import vector layer -> choose geometry type (saxli, gza, mdinare...) 
+then import another vector layer
+
+then for each layer in the menu: right click -> change data source -> choose appropriate shape file from the database (gza - gza, xidi - xidi...)
+
+then right click on layer (in menu) -> open attribute table.......
+
+save attribute before stopping editing (before clicking on pencil)
+
+then save project and zip
+
+------------------------------------------------------------------------------------
