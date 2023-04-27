@@ -1,0 +1,2427 @@
+---------------------------------------------- 1 ----------------------------------------------
+
+განსახილველი თემები:
+შესავალი
+ინფორმაციულ
+უსაფრთხოებაში;
+ინფორმაციული
+უსაფრთხოების
+საჭიროება; კიბერუსაფრთხოების სამი განზომილება; კიბერუსაფრთხოება და
+უსაფრთხოების ოპერაციების ცენტრი (SOC).
+განსახილველი საკითხები:
+კიბერუსაფრთხოების დომენები;
+კიბერდამნაშავეები;
+კიბერუსაფრთხოების სპეციალისტები;
+გავრცელებული საფრთხეები;
+საფრთხეების გავრცელების წყაროები;
+პერსონალური მონაცემები, ორგანიზაციული მონაცემები;
+კიბერომი;
+უსაფრთხოების პრინციპები, მონაცემთა მდგომარეობები, CIA ტრიადა;
+უსაფრთხოების ოპერაციების ცენტრის ელემენტები.
+
+ინფორმაცია
+
+ ინფორმაცია, ეს არის შეგროვებული ფაქტები და მონაცემები,
+
+რომელიც შეიძლება იყოს შინაარსობრივი ან რიცხობრივი და
+რომელიც გამოსახული შეიძლება იყოს როგორც
+ვირტუალურად, ისე მატერიალური სახით. იგი მნიშვნელოვან
+როლს ასრულებს თითქმის ყველაფერში, რასაც ვაკეთებთ
+თანამედროვე საზოგადოებაში. ინფორმაცია არის ფაქტები,
+მონაცემები, ციფრები, სურათები, დოკუმენტები, ხმა ან
+მოქმედება, რომელიც უნდა “გადაეცეს” მიმღებ პირს, რათა
+ახსნას, ინფორმირდეს და გადაამოწმოს, რომ მიმღებს
+შეუძლია გამოიყენოს ასეთი მიწოდებული ინფორმაცია რაიმე
+კონკრეტული მიზნით.
+
+
+National Institute of Standards and Technology - NIST
+
+პერსონალური ინფორმაცია
+
+
+
+პერსონალური ინფორმაცია არის ნებისმიერი მონაცემი, რომელიც შეიძლება გამოყენებულ
+იქნას პიროვნების იდენტიფიცირებისთვის ან დაკავშირებულია ინდივიდთან.
+NIST განსაზღვრავს რამდენიმე პერსონალური ინფორმაციის ელემენტს, რომლებიც შეიძლება
+გამოყენებულ იქნას ინდივიდის იდენტობის გასარჩევად ან მისაკვლევად, მათ შორის:
+სახელი: პიროვნების სრული სახელი ან ნებისმიერი სხვა სახელი, რომლითაც ისინი საყოველთაოდ ცნობილია.
+სოციალური დაცვის ნომერი (SSN): უნიკალური ცხრანიშნა საიდენტიფიკაციო ნომერი, რომელიც მინიჭებულია
+სოციალური დაცვის ადმინისტრაციის (SSA) მიერ.
+დაბადების თარიღი და ადგილი: ინდივიდის დაბადების თარიღი და ადგილი შეიძლება გამოყენებულ იქნას მათი
+ცალსახად იდენტიფიცირებისთვის.
+ბიომეტრიული მონაცემები: ფიზიკური ან ქცევითი მახასიათებლები, რომლებიც შეიძლება გამოყენებულ იქნას ინდივიდის
+იდენტიფიცირებისთვის, როგორიცაა თითის ანაბეჭდები, სახის ამოცნობა ან დნმ.
+ფინანსური ინფორმაცია: ეს მოიცავს საკრედიტო ბარათის ნომრებს, საბანკო ანგარიშის ნომრებს, ფინანსური
+ტრანზაქციის ჩანაწერებს და სხვა ფინანსურ ინფორმაციას, რომელიც შეიძლება გამოყენებულ იქნას თაღლითობის ან
+იდენტობის ქურდობისთვის.
+სამედიცინო ინფორმაცია: ეს მოიცავს სამედიცინო ისტორიას, ჯანმრთელობის დაზღვევის ინფორმაციას და რეცეპტებს.
+ინფორმაცია დასაქმების
+საიდენტიფიკაციო ნომრებს.
+
+შესახებ:
+
+ეს
+
+მოიცავს
+
+სამუშაოს
+
+სახელებს,
+
+სამუშაო
+
+ისტორიას
+
+და
+
+თანამშრომლის
+
+ორგანიზაციული ინფორმაცია
+
+
+ორგანიზაციული ინფორმაცია ეხება ნებისმიერ მონაცემს ან ინფორმაციას, რომელსაც ფლობს ან მართავს
+ორგანიზაცია. ეს შეიძლება შეიცავდეს საკუთრებაში არსებულ ინფორმაციას, სავაჭრო საიდუმლოებას, ფინანსურ
+ინფორმაციას, მომხმარებლის მონაცემებს და სხვა სახის მგრძნობიარე ან კონფიდენციალურ ინფორმაციას.
+
+ NIST განსაზღვრავს რამდენიმე ორგანიზაციული ინფორმაციის ელემენტს, რომლებიც მნიშვნელოვანია დასაცავად,
+
+მათ შორის:
+
+ინტელექტუალური საკუთრება: ეს მოიცავს პატენტებს, სასაქონლო ნიშანს, სავაჭრო საიდუმლოებას და სხვა სახის
+საკუთრების ინფორმაციას, რომელიც ორგანიზაციას აძლევს კონკურენტულ უპირატესობას.
+ფინანსური ინფორმაცია: ეს მოიცავს ფინანსურ ანგარიშგებას, ბიუჯეტს და სხვა ფინანსურ ინფორმაციას, რომელიც
+შეიძლება გამოიყენონ კონკურენტებმა ან მავნე აქტორებმა უპირატესობის მოსაპოვებლად.
+მომხმარებლის ინფორმაცია: ეს მოიცავს მომხმარებლის სახელებს, საკონტაქტო ინფორმაციას, შესყიდვების
+ისტორიას და სხვა მგრძნობიარე მონაცემებს, რომლებიც შეიძლება გამოყენებულ იქნას თაღლითობის ან პირადობის
+ქურდობისთვის.
+თანამშრომლების ინფორმაცია: ეს მოიცავს თანამშრომლების სახელებს, სოციალური დაცვის ნომრებს, შესრულების
+შეფასებებს და სხვა მგრძნობიარე ინფორმაციას, რომელიც შეიძლება გამოყენებულ იქნას პირადობის მოპარვისთვის
+ან თაღლითობისთვის.
+ოპერატიული ინფორმაცია: ეს მოიცავს ინფორმაციას ორგანიზაციის ოპერაციების შესახებ, როგორიცაა მიწოდების
+ჯაჭვის მონაცემები, წარმოების პროცესები და სხვა მგრძნობიარე მონაცემები, რომლებიც შეიძლება გამოყენებულ იქნას
+კონკურენტების მიერ.
+სტრატეგიული ინფორმაცია: ეს მოიცავს ინფორმაციას ორგანიზაციის გრძელვადიანი მიზნების, გეგმებისა და
+სტრატეგიების შესახებ.
+
+დაცვის მექანიზმები
+
+
+პირადი ინფორმაციის დაცვა
+აუცილებელია იდენტობის ქურდობის,
+ფინანსური თაღლითობისა და ზიანის სხვა
+ფორმებისგან თავის დასაცავად.
+ორგანიზაციებს, რომლებიც ამუშავებენ
+პერსონალურ ინფორმაციას, უნდა
+ჰქონდეთ შესაბამისი გარანტიები, რათა
+უზრუნველყონ ინფორმაციის შენახვა,
+დამუშავება და უსაფრთხოდ გადაცემა. ეს
+გარანტიები შეიძლება მოიცავდეს
+დაშიფვრას, წვდომის კონტროლს და
+უსაფრთხოების ცნობიერების ამაღლების
+ტრენინგს თანამშრომლებისთვის.
+
+ორგანიზაციული ინფორმაციის დაცვა
+გადამწყვეტია ორგანიზაციის კონკურენტული
+უპირატესობის, რეპუტაციისა და ფინანსური
+სტაბილურობის შესანარჩუნებლად.
+ორგანიზაციებს უნდა ჰქონდეთ შესაბამისი
+გარანტიები, რათა უზრუნველყონ, რომ ეს
+ინფორმაცია დაცულია არაავტორიზებული
+წვდომისგან, გამოყენების, გამჟღავნების ან
+განადგურებისგან. ეს გარანტიები შეიძლება
+მოიცავდეს წვდომის კონტროლს, დაშიფვრას,
+უსაფრთხოების ინფორმირებულობის ტრენინგს
+და ინციდენტზე რეაგირების დაგეგმვას.
+ორგანიზაციებს ასევე უნდა ჰქონდეთ პოლიტიკა
+და პროცედურები, რათა მართონ და დაიცვან
+ორგანიზაციული ინფორმაცია მისი სიცოცხლის
+ციკლის განმავლობაში.
+
+კიბერუსაფრთხოების დომენები;
+უსაფრთხოების პრინციპები;
+CIA ტრიადა.
+
+data at rest, data in motion and data in
+use
+
+ინფორმაციის
+
+უსაფრთხოება (ან infosec) მოიცავს მონაცემთა
+რესურსების
+დაცვას
+არაავტორიზებული
+წვდომისგან,
+თავდასხმისგან, ქურდობისგან ან დაზიანებისგან. მონაცემები
+შეიძლება იყოს დაუცველი მათი შენახვის, გადაცემის ან
+პროცესში. ინფორმაციული უსაფრთხოების სამი ძირითადი
+პრინციპი,
+რომელსაც
+მოიხსენიებენ
+როგორც
+CIA
+(confidentiality integrity availability) ტრიადად, არის:
+
+ კონფიდენციალურობა ნიშნავს, რომ გარკვეული ინფორმაცია
+
+უნდა იყოს ცნობილი მხოლოდ გარკვეული ადამიანებისთვის.
+ მთლიანობა ნიშნავს, რომ მონაცემები ინახება და
+
+გადაცემულია ისე, როგორც დანიშნულებისამებრ, და რომ
+ნებისმიერი ცვლილება ავტორიზებულია.
+ ხელმისაწვდომობა ნიშნავს, რომ ინფორმაცია
+
+ხელმისაწვდომია მათთვის, ვინც უფლებამოსილია ნახოს ან
+შეცვალოს იგი.
+
+Non-repudiation is a
+security concept that refers
+to the ability to prove the
+origin and integrity of a
+message or transaction, in
+order to prevent any party
+involved from denying their
+involvement or
+participation. In other
+words, non-repudiation
+ensures that the sender of a
+message or the initiator of a
+transaction cannot later
+deny sending or initiating it,
+which is particularly
+important in legal or
+financial contexts where
+disputes may arise. Nonrepudiation is typically
+achieved through the use of
+
+პასიურ
+
+მდგომარეობაში მყოფი მონაცემები
+არის ელექტრონული
+მონაცემები, რომლებიც ინახება სტატიკურად ფიზიკურ მოწყობილობაზე,
+როგორიცაა მყარი დისკი, SSD ან მონაცემთა შესანახი სხვა საშუალებები და არ
+ხდება ამ მონაცემების აქტიური გამოყენება, გადაცემა ანდა დამუშავება. თუ
+აღნიშნული მონაცემების დაკარგვის, უნებართვო წვდომის, დაუფლების ანდა
+განადგურების შედეგად არსებობს სუბიექტისთვის ზიანის მიყენების საფრთხე,
+ასეთი მონაცემების შენახვა უნდა აკმაყოფილებდეს მინიმუმ შემდეგ
+მოთხოვნებს:
+
+
+პასიურ მდგომარეობაში მყოფი მონაცემები უნდა იყოს დაშიფრული, რათა
+უზრუნველყოფილ იქნეს კონფიდენციალურობა და დაიცვას არაავტორიზებული
+წვდომისგან.
+
+
+
+უნდა განხორციელდეს დაშვების კონტროლი, რათა მხოლოდ ავტორიზებულ
+პირებს ჰქონდეთ წვდომა დაშიფრულ მონაცემებზე.
+
+
+
+დაშიფრული მონაცემების შემცველი შესანახი მოწყობილობების დასაცავად
+უზრუნველყოფილი უნდა იყოს ფიზიკური უსაფრთხოების ზომები.
+
+
+უსაფრთხოების უზრუნველსაყოფად უნდა განხორციელდეს დაშიფრულ
+მონაცემებზე წვდომის რეგულარული მონიტორინგი და აუდიტი.
+
+გადაცემის პროცესში მყოფი მონაცემები არის ისეთი ინფორმაცია,
+რომელიც გადაიცემა ერთი ადგილიდან მეორეზე, მაგალითად, ელ.ფოსტის
+გაგზავნისას, ფაილის ღრუბლოვან სისტემაში ატვირთვისას ან ინფორმაციის
+გადაცემისას ქსელის კავშირის საშუალებით. მონაცემები ტრანზიტშია, სანამ არ
+მიაღწევს საბოლოო დანიშნულებას და ინახება უსაფრთხო ადგილას. ტრანზიტის
+დროს მონაცემები დაუცველია ნებისმიერი არალეგალური მანიპულაციისგან,
+გაყალბებისგან ან/და დაკარგვისგან, შესაბამისად მნიშვნელოვანია მათი დაცვა
+დაშიფვრისა და უსაფრთხოების სხვა ზომების გამოყენებით.
+
+
+ქსელებით გადაცემული ყველა მონაცემი უნდა იყოს დაშიფრული, რათა
+უზრუნველყოფილი იქნას კონფიდენციალურობა და თავიდან იქნას აცილებული
+არაავტორიზებული წვდომა.
+
+
+
+
+მონაცემთა გადაცემისას გამოყენებული უნდა იქნას უსაფრთხო პროტოკოლები.
+
+
+
+უსაფრთხო ავთენტიფიკაციის მიზნით, ავტორიზაციის მექანიზმების გამოყენებით
+გადამოწმებული უნდა იქნას მომხმარებლის და მოწყობილობის იდენტურობა.
+
+
+
+უსაფრთხოების დარღვევის გავლენის შესამცირებლად, უნდა განხორციელდეს
+ქსელის სეგმენტაცია და სენსიტიურ მონაცემებზე წვდომის შეზღუდვა.
+
+
+
+ქსელში უჩვეულო ან საეჭვო აქტივობების იდენტიფიკაციის მიზნით უნდა
+განხორციელდეს ქსელის აქტივობების მონიტორინგი და აღმოჩენის შემთხვევაში უნდა
+განხორციელდეს შესაბამისი რეაგირება.
+
+
+შემომავალი და გამავალი ტრაფიკი უნდა განხორციელდეს ფაერვოლის
+გამოყენებით.
+
+
+
+ახალი საფრთხეებისაგან თავდაცვის მიზნით უნდა განხორციელდეს უსაფრთხოების
+და სხვა პროგრამული საშუალებების რეგულარული განახლება.
+
+
+
+მონაცემთა გადაცემის უსაფრთხოების უზრუნველსაყოფად და საუკეთესო პრაქტიკის
+გასათვალისწინებლად საჭიროა შესაბამისი თანამშრომლების გადამზადება.
+
+
+პერიოდულად, მინიმუმ 3 თვეში ერთხელ უნდა განხორციელდეს ქსელის
+უსაფრთხოების შეფასება და შესაბამისი სისუსტეების იდენტიფიკაცია შემდგომი
+რეაგირების მიზნით.
+ სენსიტიური მონაცემების დაცვის მიზნით უნდა განხორციელდეს დაშვების კონტროლი,
+
+რათა მხოლოდ ავტორიზებულ პირებს ჰქონდეთ წვდომა დაშიფრულ მონაცემებზე.
+
+ უსაფრთხოების ინციდენტების გამოსავლენად და რეალურ დროში რეაგირების მიზნით
+
+უნდა განხორციელდეს IDS/IPS შეჭრის აღმოჩენის/პრევენციის სისტემების გამოყენება.
+
+
+
+გამოყენებადი მონაცემები არის მონაცემთა მდგომარეობა, როდესაც ისინი
+აქტიურად მუშავდება ან წვდომადია სისტემის ან აპლიკაციის მიერ.
+
+
+
+გამოყენებადი მონაცემები ჩვეულებრივ ინახება არასტაბილურ მეხსიერებაში,
+როგორიცაა ოპერატიული მეხსიერება, და მუდმივად არის შესაძლებელი მასზე
+წვდომა და მანიპულირება სისტემის ან პროგრამის მიერ, დამუშავების მიზნით.
+
+
+გამოყენებადი მონაცემები ხშირად არის მონაცემთა ყველაზე დაუცველი
+მდგომარეობა, რადგან მარტივად შესაძლებელია მასზე არაავტორიზებული
+წვდომა, არსებობს პოტენციური საფრთხეები როგორც გარე, ასევე შიდა
+წყაროებიდან. ე.წ „bad actor-ებმა“ შეიძლება სცადონ, გამოიყენონ დაუცველობა
+სისტემაში, რათა მიიღონ წვდომა გამოყენებად მონაცემებზე, ან ინსაიდერებმა მავნე
+განზრახვით შეიძლება სცადონ, მოიპარონ ან შეცვალონ მონაცემები დამუშავების
+დროს.
+
+
+გამოყენებული მონაცემების დასაცავად, ორგანიზაციებმა უნდა განახორციელონ
+უსაფრთხოების სხვადასხვა ზომები, როგორიცაა წვდომის კონტროლი, დაშიფვრა
+და მონაცემთა დაკარგვის პრევენციის ტექნოლოგიები. მათ ასევე რეგულარულად
+უნდა აკონტროლონ თავიანთი სისტემები საეჭვო აქტივობაზე და ჰქონდეთ
+ინციდენტზე რეაგირების გეგმები, რათა შეძლონ სწრაფი რეაგირება სავარაუდო
+ინციდენტზე.
+
+უსაფრთხოების დომენები (NIST)
+Identify:
+
+Respond:
+
+Conducting vulnerability assessments and risk analyses to
+
+Responding promptly and appropriately to security
+
+identify potential threats and vulnerabilities.
+
+incidents and breaches.
+
+Developing and maintaining an inventory of information assets,
+
+Containing incidents to prevent further damage or loss.
+
+including hardware, software, and data.
+
+Classifying information and information systems based on risk
+
+Investigating incidents to determine the root cause
+
+and implementing corrective actions.
+
+levels to ensure proper protection.
+
+Recover:
+
+Protect:
+
+Implementing disaster recovery and business
+
+Developing and implementing security policies and procedures
+
+to protect information and information systems from
+unauthorized access, use, disclosure, disruption, modification, or
+destruction.
+Implementing security controls, such as firewalls, access
+
+controls, encryption, and monitoring systems.
+
+continuity plans to ensure the timely recovery of critical
+information and information systems.
+Testing and updating disaster recovery and business
+
+continuity plans regularly.
+Govern:
+
+Establishing and maintaining a cybersecurity program
+
+Providing security awareness training to employees and other
+
+stakeholders.
+
+that aligns with business objectives and complies with
+legal, regulatory, and industry requirements.
+
+Detect:
+
+Regularly assessing and reporting on the effectiveness
+
+
+
+Monitoring information systems to detect security incidents
+and breaches.
+
+
+
+Establishing and maintaining incident response plans.
+
+
+
+Conducting regular security assessments to ensure the
+
+of the cybersecurity program.
+
+
+Continuously improving the cybersecurity program
+based on new threats and risks.
+
+კიბერუსაფრთხოების სპეციალისტები
+
+მუხლი 9. კომპიუტერული უსაფრთხოების სპეციალისტი
+1. კრიტიკული ინფორმაციული სისტემის სუბიექტი ვალდებულია განსაზღვროს კონკრეტული პირი (პირები) ან
+თანამშრომელი (თანამშრომლები), რომელიც (რომლებიც) პასუხისმგებელია (პასუხისმგებელი არიან) კრიტიკული
+ინფორმაციული სისტემის სუბიექტის კომპიუტერული სისტემების უსაფრთხოების პრაქტიკული უზრუნველყოფისათვის
+(კომპიუტერული უსაფრთხოების სპეციალისტი).
+2. კომპიუტერული უსაფრთხოების სპეციალისტის ძირითადი მოვალეობებია:
+ა) კომპიუტერული სისტემების ყოველდღიური მონიტორინგი და შეფასება;
+ბ) კომპიუტერული ინციდენტის იდენტიფიცირება, მასზე რეაგირება და კომპიუტერული ინციდენტის შესახებ
+ინფორმაციის დაუყოვნებლივ მიწოდება;
+გ) კომპიუტერული ინციდენტებისა და უსაფრთხოების ზომების ანალიზი და ანგარიშგება;
+დ) დახმარების ჯგუფთან კოორდინაცია;
+ე) სხვა მოვალეობები, რომლებსაც განსაზღვრავს კრიტიკული ინფორმაციული სისტემის სუბიექტი.
+3. კომპიუტერული უსაფრთხოების სპეციალისტი ანგარიშვალდებულია კრიტიკული ინფორმაციული სისტემის სუბიექტის
+ინფორმაციული ტექნოლოგიების სამსახურის ხელმძღვანელის ან მის მიერ შესაბამისად უფლებამოსილი
+თანამშრომლის წინაშე.
+4. კომპიუტერული უსაფრთხოების სპეციალისტი ხელმისაწვდომი უნდა იყოს ნებისმიერ დროს, მათ შორის, სამუშაო
+საათების შემდეგ. იგი ვალდებულია კრიტიკული ინფორმაციული სისტემის სუბიექტზე მიმდინარე ან სავარაუდო
+კიბერშეტევის და მისი შედეგების აღმოფხვრის პროცესში უზრუნველყოს მუდმივი კოორდინაცია.
+კანონი იხილეთ აქ.
+
+უსაფრთხოების ოპერაციების ცენტრი (SOC)
+უსაფრთხოების ოპერაციების ცენტრი (SOC) არის ცენტრალიზებული ერთეული ორგანიზაციის ფარგლებში,
+რომელიც პასუხისმგებელია უსაფრთხოების სიგნალების, მოვლენებისა და ინციდენტების მონიტორინგსა და
+ანალიზზე. SOC, როგორც წესი, იყენებს ტექნოლოგიისა და გამოცდილი პერსონალის ერთობლიობას
+საფრთხეების იდენტიფიცირებისთვის, შესაფასებლად და რეაგირებისთვის რეალურ დროში, ორგანიზაციის
+აქტივებისა და მონაცემების არასანქცირებული წვდომისგან, ქურდობის ან დაზიანებისგან დასაცავად.
+SOC-მა შეიძლება გამოიყენოს უსაფრთხოების სხვადასხვა ხელსაწყოები და ტექნოლოგიები, როგორიცაა
+firewalls, შეჭრის აღმოჩენისა და პრევენციის სისტემები (IDS/IPS), უსაფრთხოების ინფორმაციისა და
+ღონისძიებების მართვის სისტემები (SIEM) და საფრთხეების დაზვერვის პლატფორმები (Shodan). SOC
+გუნდის წევრები, როგორც წესი, არიან სერტიფიცირებული კიბერუსაფრთხოებაში, ისინი ძირითადად არიან
+უსაფრთხოების ანალიტიკოსები, ინციდენტებზე რეაგირებისა და ციფრული გამოძიების სპეციალისტები.
+
+SOC-ის მთავარი მიზნია სავარაუდო ინციდენტების გამოვლენა და მათზე რეაგირება, ორგანიზაციის
+უსაფრთხოების შენარჩუნება და უსაფრთხოების შესაბამის პოლიტიკასა და რეგულაციასთან შესაბამისობის
+უზრუნველყოფა. უსაფრთხოების მოვლენების მუდმივი მონიტორინგისა და ანალიზის საშუალებით, SOC-ს
+შეუძლია დაეხმაროს პოტენციური საფრთხეების იდენტიფიცირებასა და პრევენციაში, სანამ ისინი
+მნიშვნელოვან ზიანს მიაყენებენ ორგანიზაციას.
+
+ Incident Response: The SOC should have a defined incident response plan that outlines procedures for responding to
+cyber threats, including how to detect and contain incidents, and how to recover from them.
+ Threat Intelligence: The SOC should be equipped with tools and techniques to gather, analyze, and disseminate threat
+intelligence to help identify and respond to emerging threats.
+ Security Information and Event Management (SIEM): The SOC should have a SIEM system that enables real-time
+monitoring of security events and alerts, and allows security analysts to investigate and respond to incidents.
+ Vulnerability Management: The SOC should conduct regular vulnerability assessments and use this information to
+prioritize and remediate vulnerabilities in a timely manner.
+ Access Control: The SOC should implement strict access controls to limit the number of people who can access
+sensitive information and systems.
+ Continuous Monitoring: The SOC should continuously monitor network and system activity to identify potential
+security incidents, including anomalies or unauthorized access.
+ Threat Hunting: The SOC should have the capability to proactively hunt for threats, identify gaps in defenses, and
+implement proactive security measures.
+ Training and Awareness: The SOC should provide regular training and awareness programs to all employees to help
+them understand and comply with security policies and procedures.
+
+ზოგადი საფრთხეები
+
+
+Malware: მავნე პროგრამული უზრუნველყოფა, როგორიცაა ვირუსები, ტროიანები და
+სხვა , რომელსაც შეუძლია დააინფიციროს სისტემა და გამოიწვიოს ზიანი ან
+მოიპაროს ინფორმაცია.
+
+
+
+ფიშინგი: სოციალური ინჟინერიის შეტევის ტიპი, სადაც თავდამსხმელები იყენებენ
+ყალბ ელ.წერილს ან ვებსაიტებს, რათა მოატყუონ მომხმარებლები სენსიტიური
+ინფორმაციის გასაჯაროებაში ან მავნე პროგრამების ჩამოტვირთვის მიზნით.
+
+
+
+შიდა საფრთხეები (Insider Threat): საფრთხეები, რომლებიც მოდის ორგანიზაციის
+შიგნიდან, როგორიცაა თანამშრომლები, რომლებიც განზრახ ან უნებლიედ
+ავრცელებენ სენსიტიურ ინფორმაციას ან ეწევიან მავნე საქმიანობას.
+
+
+
+Distributed Denial of Service (DDoS): შეტევა, რომელიც უტევს ქსელს ან სერვერს
+ტრაფიკით, რათა გადაიტვირთოს იგი და გამოიწვიოს მისი შეფერხება ან გახადოს
+მიუწვდომელი.
+
+
+
+Advanced Persistent Threats (APT): შეტევები, რომლებიც შექმნილია იმისთვის, რომ
+დარჩეს დიდი ხნის განმავლობაში შეუმჩნეველი და, როგორც წესი, მოიცავს
+სოციალური ინჟინერიის, მავნე პროგრამების და დაუცველობის გამოყენებას.
+
+საფრთხის წყაროები:
+
+
+ეროვნული სახელმწიფო აქტორები: მთავრობები ან ორგანიზაციები, რომლებიც
+მოქმედებენ მთავრობის სახელით, რომლებიც ეწევიან კიბერ ჯაშუშობას ან კიბერ ომს.
+
+
+
+ჰაქტივისტები: ჯგუფები ან პირები, რომლებიც იყენებენ ჰაკერების ტექნიკას პოლიტიკური ან
+სოციალური მიზეზების გასაძლიერებლად.
+
+
+
+კიბერკრიმინალები: პირები ან ჯგუფები, რომლებიც ეწევიან კრიმინალურ საქმიანობას,
+როგორიცაა ფინანსური ინფორმაციის ქურდობა, ფულის გამოძალვა ან მოპარული
+მონაცემების გაყიდვა შავ ბაზარზე.
+
+
+
+ინსაიდერები: თანამშრომლები, კონტრაქტორები ან ბიზნეს პარტნიორები, რომლებსაც აქვთ
+წვდომა სენსიტიურ ინფორმაციაზე და სისტემებზე და შეიძლება განზრახ ან უნებლიეთ ზიანი
+მიაყენონ.
+
+
+
+ბიზნეს კონკურენტები: ორგანიზაციები ან პირები, რომლებიც ცდილობენ მოიპოვონ
+უპირატესობა კონკურენტზე ინტელექტუალური საკუთრების ან სავაჭრო საიდუმლოების
+მოპარვით.
+
+
+
+მნიშვნელოვანია აღინიშნოს, რომ საფრთხის ლანდშაფტი მუდმივად ვითარდება და ახალი
+საფრთხეები და საფრთხეების წყაროები ნებისმიერ დროს შეიძლება გაჩნდეს.
+ორგანიზაციები უნდა იყვნენ ფხიზლად და დაიწყონ უახლესი საფრთხის დაზვერვა, რათა
+გამოავლინონ და შეაჩერონ პოტენციური რისკები მათი სისტემებისა და მონაცემებისთვის.
+
+კიბერომი
+
+
+კიბერომი არის ომის სახეობა, რომელიც ხორციელდება
+კიბერსივრცეში კომპიუტერული ქსელების, საინფორმაციო
+ტექნოლოგიების სისტემებისა და ინტერნეტის გამოყენებით. ეს არის
+კონფლიქტის ფორმა, რომელსაც აწარმოებს ერთი ერი სახელმწიფო
+მეორის წინააღმდეგ, ან ჰაკერების, კრიმინალების ან აქტივისტების
+ჯგუფი ეროვნული სახელმწიფოს ან სხვა სამიზნეების წინააღმდეგ.
+
+
+კიბერ ომში თავდამსხმელები იყენებენ სხვადასხვა ტექნიკას
+კომპიუტერული სისტემების, ქსელებისა და ინფორმაციის ჩაშლის,
+დაზიანების ან განადგურების მიზნით. ეს თავდასხმები შეიძლება
+მერყეობდეს უბრალო სერვისზე უარის თქმის შეტევებიდან, რომლებიც
+გადატვირთავს სამიზნის კომპიუტერულ სისტემებს და დამთავრებული
+დახვეწილი მავნე პროგრამით, რომელსაც შეუძლია შეაღწიოს და
+გააკონტროლოს სამიზნის სისტემები.
+
+The objectives of a cyber war can vary, but they typically include:
+Intelligence gathering: This involves stealing sensitive information from a target's computer
+systems, networks, or databases.
+Disruption of services: This involves disrupting or disabling a target's computer systems, networks,
+or services, such as banking, transportation, or communication systems.
+Destruction of critical infrastructure: This involves targeting critical infrastructure, such as power
+grids, water systems, or transportation systems, with the aim of causing physical damage or
+disruption.
+Espionage: This involves stealing intellectual property, trade secrets, or other confidential
+information from a target.
+Propaganda: This involves spreading false information or disinformation with the aim of
+influencing public opinion or political outcomes.
+
+Attributes of Threat Actors
+
+Internal/External
+
+Historically, cybersecurity techniques were highly dependent on
+the identification of "static" known threats, such as viruses or
+rootkits, Trojans, botnets, and specific software vulnerabilities. It
+is relatively straightforward to identify and scan for these types of
+threats with automated software. Unfortunately, adversaries were
+able to develop means of circumventing this type of signaturebased scanning. The sophisticated nature of modern cybersecurity
+threats means that it is important to be able to describe and
+analyze behaviors. This analysis involves identifying the attributes
+of threat actors in terms of location, intent, and capability.
+
+An external threat actor or agent is one that has no account or
+authorized access to the target system. A malicious external
+threat must infiltrate the security system using malware and/or
+social engineering. Note that an external actor may perpetrate an
+attack remotely or on-premises (by breaking into the company's
+headquarters, for instance). It is the threat actor that is defined as
+external, rather than the attack method. Conversely, an internal
+(or insider) threat actor is one that has been granted permissions
+on the system. This typically means an employee, but insider
+threat can also arise from contractors and business partners.
+
+Intent/Motivation
+Intent describes what an attacker hopes to achieve from the attack, while motivation is the attacker's reason for perpetrating
+the attack. A malicious threat actor could be motivated by greed, curiosity, or some sort of grievance, for instance. The intent
+could be to vandalize and disrupt a system or to steal something. Threats can be characterized as structured or unstructured
+(or targeted versus opportunistic) depending on the degree to which your own organization is targeted specifically. For
+example, a criminal gang attempting to steal customers' financial data is a structured, targeted threat; a script kiddie
+launching some variant on the "I Love You" email worm is an unstructured, opportunistic threat. Malicious intents and
+motivations can be contrasted with accidental or unintentional threat actors and agents. Unintentional threat actors represents
+accidents, oversights, and other mistakes.
+
+Script Kiddies
+A script kiddie is someone who uses hacker tools without necessarily understanding how they work or
+having the ability to craft new attacks. Script kiddie attacks might have no specific target or any
+reasonable goal other than gaining attention or proving technical abilities.
+Hackers
+
+Hacker Teams and Hacktivists
+
+Hacker describes an individual who has the skills to gain access
+to computer systems through unauthorized or unapproved
+means. Originally, hacker was a neutral term for a user who
+excelled at computer programming and computer system
+administration. Hacking into a system was a sign of technical
+skill and creativity that gradually became associated with illegal
+or malicious system intrusions. The terms black hat
+(unauthorized) and white hat (authorized) are used to distinguish
+these motivations. Of course, between black and white lie some
+shades of gray. A gray hat hacker (semiauthorized) might try to
+find vulnerabilities in a product or network without seeking the
+approval of the owner; but they might not try to exploit any
+vulnerabilities they find. A gray hat might seek voluntary
+compensation of some sort (a bug bounty), but will not use an
+exploit as extortion. A white hat hacker always seeks
+authorization to perform penetration testing of private and
+proprietary systems.
+
+The historical image of a hacker is that of a loner, acting
+as an individual with few resources or funding. While any
+such "lone hacker" remains a threat that must be
+accounted for, threat actors are now likely to work as part
+of some sort of team or group. The collaborative team
+effort means that these types of threat actors are able to
+develop sophisticated tools and novel strategies. A
+hacktivist group, such as Anonymous, WikiLeaks, or
+LulzSec, uses cyber weapons to promote a political
+agenda. Hacktivists might attempt to obtain and release
+confidential information to the public domain, perform
+denial of service (DoS) attacks, or deface websites.
+Political, media, and financial groups and companies are
+probably most at risk, but environmental and animal
+advocacy groups may target companies in a wide range of
+industries.
+
+ Information Security Awareness
+ Common Attacks
+ Intro to Defensive Security
+ Junior Security Analyst Intro
+ Principles of Security
+
+
+
+
+
+
+
+---------------------------------------------- 2 ----------------------------------------------
+
+განსახილველი საკითხები:
+•ვინდოუსის პროცესები, ნაკადები და სერვისები;
+• რეესტრი;
+•რესურსებისა და მოვლენების მონიტორინგი;
+• ლინუქსის როლი უსაფრთხოების ოპერაციების ცენტრში;
+•მომხმარებლები და ჯგუფები;
+•ნებართვები და წვდომები;
+•ლინუქსის გამაგრება;
+•მონიტორინგის სერვისული ლოგები;
+•პროცესები.
+
+Linux role in SOC:
+•Linux plays a crucial role in security operations as it is a widely used operating system for servers, networking devices, and
+other critical infrastructure. Here are some ways Linux is used in security operations:
+1. Security-focused Linux distributions: There are several Linux distributions that are specifically designed for security
+purposes. Examples include Kali Linux, Parrot Security OS, and BlackArch Linux. These distributions come preloaded
+with a wide range of security tools and utilities that can be used for vulnerability assessment, penetration testing, and
+forensic analysis.
+2. Secure configuration: Linux can be configured to be highly secure by disabling unnecessary services, using secure
+protocols, and implementing access controls. This can help prevent unauthorized access and reduce the risk of
+exploitation.
+3. Open-source security tools: There are many open-source security tools available for Linux that can be used for various
+security operations. Examples include Wireshark for network analysis, Snort for intrusion detection, and nmap for port
+scanning.
+4. Logging and monitoring: Linux provides robust logging and monitoring capabilities, which can be used to detect and
+investigate security incidents.
+5. Containerization: Linux-based containerization technologies like Docker and Kubernetes are widely used in modern
+application development and deployment. They provide isolation and security features that can help protect applications
+and services from attacks.
+•Overall, Linux's flexibility, security features, and open-source nature make it a popular choice for security operations.
+
+USERS and GROUPS in Linux
+
+•In Linux, UID (User Identifier) and GID (Group Identifier) are numeric identifiers associated with
+user accounts and groups, respectively.
+
+•UIDs are used to identify individual users on the system. Every user account on a Linux
+system is assigned a unique UID, which is used to track file ownership and permissions, and
+to control access to system resources.
+•GIDs are used to identify groups of users on the system. Every group on a Linux system is
+assigned a unique GID, which is used to manage file and directory permissions, and to control
+access to system resources.
+•When a file or directory is created, it is assigned an owner and a group. The owner of a file or
+directory is identified by their UID, while the group is identified by their GID. File and directory
+permissions are then set based on the owner, group, and other users or groups that may be
+granted access.
+•You can view a user's UID andU associated
+– user
+groups with the id command in the terminal. For
+example, running the command
+username will display the user's UID, primary group GID,
+G –idgroup
+and any additional groups that the user belongs to.
+O – other
+A – all
+
+• The first column on the listing shows the file type and permissions. For example, on
+drwxrwxr-x:
+◦ The first character, d, indicates the file type.
+◦ The next three characters, rwx, indicate the permissions for the owner of the file, also
+referred to as user or u.
+◦ The next three characters, rwx, indicate the permissions of the group owning the file, also
+referred to as g.
+◦ The last three characters, r-x, indicate the permissions for anyone else, also known as
+others or o.
+There are three other files in that directory, but they are hidden. On Linux, files whose name
+starts with a period (.) are automatically hidden. To see them we need to add the -a
+parameter to ls.
+
+Permissions on Files
+• r Stands for read and has an octal value of 4 (do not worry, we will discuss octals shortly). This means
+permission to open a file and read its contents.
+• w Stands for write and has an octal value of 2. This means permission to edit or delete a file.
+• x Stands for execute and has an octal value of 1. This means that the file can be run as an executable or
+script.
+• So, for example, a file with permissions rw- can be read and written to, but cannot be executed.
+Permissions on Directories
+• r Stands for read and has an octal value of 4. This means permission to read the directory’s contents, like
+filenames. But it does not imply permission to read the files themselves.
+• w Stands for write and has an octal value of 2. This means permission to create or delete files in a
+directory. Keep in mind that you cannot make these changes with write permissions alone, but also need
+execute permission (x) to change to the directory.
+• x Stands for execute and has an octal value of 1. This means permission to enter a directory, but not to
+list its files (for that r is needed).
+
+• Modifying File Permissions The command chmod is used to modify the permissions for a file, and takes
+at least two parameters: the first one describes which permissions to change, and the second one points to
+the file or directory where the change will be made. Keep in mind that only the owner of the file, or the
+system administrator (root) can change the permissions on a file.
+
+rwx rw- r-- 764
+Sticky bit - permitting only the owner or root user of the file
+or folder to modify, rename or delete the concerned
+directory or file.
+
+Monitoring service logs on Linux:
+•Monitoring service logs on Linux is an important part of maintaining the health and security of a system. Here are some common methods
+for monitoring service logs on Linux:
+•Using the system journal: Many modern Linux distributions use the systemd journal as the default logging system. To view logs for a
+specific service, you can use the journalctl command with the -u option followed by the name of the service. For example, to view the logs
+for the SSH service, you would run:
+
+•You can also use the -f option to follow the logs in real-time.
+•Using syslog: Syslog is a traditional logging system that is still commonly used on many Linux systems. Service logs are typically stored
+in /var/log/syslog, and you can view them with a text editor or the tail command. For example, to view the last 10 lines of the syslog for the
+Apache service, you would run:
+
+•Using a log management tool: There are many third-party log management tools available for Linux that can provide more advanced
+logging and analysis capabilities.
+•By monitoring service logs on Linux, you can identify potential issues and troubleshoot problems before they cause significant problems.
+It can also help with capacity planning, identifying performance bottlenecks, and detecting security breaches.
+
+Linux Hardening:
+Linux hardening refers to the process of securing a Linux system by reducing its attack surface, mitigating
+potential vulnerabilities, and implementing best practices for security.
+Some common practices involved in Linux hardening include:
+•Keeping the system up to date with the latest security patches and updates.
+•Disabling or removing unnecessary services and applications that are not required for the system's
+operation.
+•Configuring the system to use secure protocols and encryption, such as SSH for remote access and TLS for
+web traffic.
+•Implementing strong passwords and authentication mechanisms, such as two-factor authentication.
+•Setting up access controls and permissions to limit user access to sensitive files and directories.
+•Enabling firewall and intrusion detection systems to monitor and protect the system from external attacks.
+•Implementing security auditing and logging to monitor system activity and detect potential security
+breaches.
+By implementing these measures and following security best practices, a Linux system can be hardened
+against potential threats and better protected against unauthorized access, data breaches, and other
+security issues.
+
+PROCESSES:
+•jobs - Display active jobs and their status.
+•sleep - Delay for a specific amount of time.
+•fg - Bring job to the foreground.
+•bg - Move job to the background.
+
+•free - Display memory usage.
+•pkill - Send signal to process by name.
+•top - Display Linux processes.
+
+•exit - Exit current shell.
+
+•ps - Report a snapshot of the current
+processes.
+
+• watch - Run a command repeatedly (2
+seconds cycle by default).
+
+•& - to run a command or process in the
+background.
+
+•uptime - Display how long the system has
+been running, the number of current users
+and system load average.
+
+•&& - to execute multiple commands
+•kill - Terminate job.
+• killall - Kill process(es) by name
+
+ps
+
+•USER - Owner of process.
+•PID - Process identifier.
+•%CPU - Percentage of CPU used.
+•%MEM - Percentage of physical memory used.
+•VSZ - Virtual memory of process in KiB.
+•RSS - Non-swapped physical memory used by process in KiB.
+•TT - Terminal (tty) controlling the process.
+•STAT - Code representing the state of process. Apart from S, R and Z (that we saw when describing the output of top), other possible values include:
+D (uninterruptible sleep—usually waiting for I/O), T (stopped—normally by a control signal). Some extra modifier include: < (high-priority—not
+nice to other processes), N (low-priority—nice to other processes), or + (in the foreground process group).
+•STARTED - Time at which the process started.
+•TIME - Accumulated CPU time.
+•COMMAND - Command that started the process
+
+top
+•The Task Area in top:
+•Fields and Columns, followed with task area.
+reporting information about the running processes:
+•PID - Process identifier.
+•USER - User who issued the command that generated the process.
+•PR - Priority of process to the kernel.
+•NI - Nice value of process.
+Lower values have a higher priority than higher ones.
+•VIRT - Total amount of memory used by process (including Swap).
+•RES - RAM memory used by process.
+•SHR - Shared memory of the process with other processes.
+•S - Status of process. Values include: S (interruptible sleep—waiting for an event to finish), R (runnable—either executing or in the queue
+to be executed) or Z (zombie—terminated child processes whose data structures have not yet been removed from the process table).
+•%CPU - Percentage of CPU used by process.
+•%MEM - Percentage of RAM used by process, that is, the RES value expressed as a percentage.
+•TIME+ - Total time of activity of process.
+•COMMAND - Name of command/program which generated the process.
+
+Windows Processes:
+• Windows processes, streams, and services are integral components of the Windows
+operating system that manage resources, handle input and output, and provide functionality
+to other programs. Understanding how they work and interact can help you troubleshoot
+issues, optimize performance, and better manage your system.
+• Processes are programs that are running on your computer. They are responsible for
+managing system resources, including memory, CPU usage, and input/output operations.
+Every program that is running on your computer has its own process, which allows the
+operating system to manage each program's resources separately. You can view and manage
+processes using the Task Manager, which allows you to see how much CPU and memory
+each process is using and terminate any processes that are not responding.
+
+Windows Streams:
+• Streams, on the other hand, are a way for programs to communicate with input and
+output devices, such as keyboards, mice, and printers. A stream is a flow of data
+between a program and a device. There are different types of streams, including input
+streams and output streams. Input streams allow programs to receive data from devices,
+while output streams allow programs to send data to devices. For example, when you
+type on your keyboard, the keyboard sends data to the computer through an input
+stream, and the computer processes that data through a process.
+
+Windows Services:
+• Services, meanwhile, are programs that run in the background and provide functionality to
+other programs. They are not meant to be directly interacted with by the user, but instead,
+they provide functionality that can be accessed by other programs. Examples of services
+include the print spooler service, which manages print jobs, and the Windows update
+service, which automatically updates your system with security patches and other updates.
+You can view and manage services using the Services console, which allows you to start,
+stop, or restart services.
+
+• Processes, streams, and services are all interconnected and work together to keep your
+system running smoothly. For example, when you print a document, the print job is
+managed by the print spooler service, which sends the job to the printer through an output
+stream. The printer then sends data back to the computer through an input stream, which is
+processed by a process. If any of these components are not working properly, you may
+experience issues with printing or other system functions.
+• In conclusion, understanding how Windows processes, streams, and services work and
+interact can help you troubleshoot issues, optimize performance, and better manage your
+system. By being aware of the roles and functions of these components, you can more
+effectively diagnose and resolve any problems that arise, and ensure that your computer
+runs smoothly and efficiently.
+
+Windows Registry:
+•The Windows registry is a hierarchical database that stores configuration settings and options for the Windows operating
+system and installed applications. It is a critical component of the Windows operating system and contains information about
+hardware, software, user profiles, and system settings.
+•The registry is organized into a tree-like structure, with each node representing a key, and each key containing one or more
+values. The keys and values in the registry can be accessed and modified using the Windows Registry Editor or by using
+scripts and programming languages that support registry access.
+•Some common types of information stored in the registry include:
+1. Application settings: Installed applications may store configuration settings, licensing information, and other data in the
+registry.
+2. User profiles: User-specific settings and preferences, such as desktop wallpaper, are stored in the registry.
+3. Hardware settings: The registry stores information about hardware devices, including their drivers and configuration
+settings.
+4. System settings: Various system-wide settings, such as security policies and startup programs, are stored in the registry.
+•Editing the registry can have a significant impact on the operation of the Windows operating system and installed
+applications, so it is important to be careful when making changes to the registry. Incorrectly modifying the registry can cause
+system instability, crashes, and data loss. It is recommended that users make a backup of the registry before making any
+changes and only modify the registry if they have a clear understanding of what they are doing.
+
+Monitoring resources
+•Monitoring of resources and events is an important aspect of maintaining the security and stability of a Windows
+operating system. Here are some ways that resources and events can be monitored in Windows:
+1. Performance Monitor: The Performance Monitor is a built-in tool that can be used to monitor system performance
+metrics such as CPU usage, memory usage, disk activity, and network utilization. It can also be used to create
+custom performance counters and alerts.
+2. Event Viewer: The Event Viewer is another built-in tool that can be used to monitor system events and error
+messages. It provides a centralized view of system logs, including application, security, and system events.
+3. Task Manager: The Task Manager can be used to monitor running processes and applications, as well as system
+performance metrics such as CPU usage, memory usage, and disk activity.
+4. Resource Monitor: The Resource Monitor provides detailed information about system resource usage, including
+CPU, memory, disk, and network activity. It can also be used to monitor individual processes and services.
+5. Third-party monitoring tools: There are many third-party monitoring tools available for Windows that can provide
+more advanced monitoring and alerting capabilities. Examples include Nagios, PRTG Network Monitor, and
+SolarWinds Server & Application Monitor.
+•By monitoring resources and events in Windows, administrators can identify and address potential issues before they
+cause significant problems. It can also help with capacity planning, troubleshooting, and identifying performance
+bottlenecks.
+
+
+
+
+
+---------------------------------------------- 3 ----------------------------------------------
+
+
+განსახილველვი საკითხები:
+• ეზერნეტ და ინტერნეტ პროტოკოლი (IP);
+• ARP პროტოკოლი; +
+• ტრანსპორტის შრის პროტოკოლები; transport layer protocols;
+(TCP/UDP) + OSI
+• ქსელური სერვისები (DHCP+, DNS+, NAT, FTP+, Email, HTTP+,
+HTTPS)
+
+Internet
+Networks are simply things connected. For example, your friendship circle: you are all connected because of similar
+interests, hobbies, skills and sorts.
+Networks can be found in all walks of life:
+• A city's public transportation system
+• Infrastructure such as the national power grid for electricity
+• Meeting and greeting your neighbours
+• Postal systems for sending letters and parcels
+
+But more specifically, in computing, networking is the same idea, just dispersed to technological devices.
+In computing, a network can be formed by anywhere from 2 devices to billions. These devices include everything
+from your laptop and phone to security cameras, traffic lights and even farming!
+Networks are integrated into our everyday life. Be it gathering data for the weather, delivering electricity to homes or
+even determining who has the right of way at a road. Because networks are so embedded in the modern-day,
+networking is an essential concept to grasp in cybersecurity.
+
+Take the diagram below as an example, Alice, Bob and Jim
+have formed their network!
+
+The Internet is one giant network that consists of
+many, many small networks within itself. Let's
+now imagine that Alice made some new friends
+named Zayn and Toby that she wants to introduce
+to Bob and Jim. The problem is that Alice is the
+only person who speaks the same language as
+Zayn and Toby. So Alice will have to be the
+messenger!
+
+Because Alice can speak both languages, they can
+communicate to one another through Alice — forming a
+new network.
+The first iteration of the Internet was within the
+ARPANET project in the late 1960s. This project was
+funded by the United States Defence Department and
+was the first documented network in action. However, it
+wasn't until 1989 when the Internet as we know it was
+invented by Tim Berners-Lee by the creation of
+the World Wide Web (WWW). It wasn't until this point
+that the Internet wasn't used as a repository for storing
+and sharing information (like it is today).
+Let's relate Alice's network of friends to computing
+devices. The Internet looks like a much larger version of
+this sort of diagram:
+As previously stated, the Internet is made up of many small networks all joined together. These small networks are
+called private networks, where networks connecting these small networks are called public networks -- or the
+Internet! So, to recap, a network can be one of two types:
+•A private network
+•A public network
+Devices will use a set of labels to identify themselves on a network.
+
+The OSI model
+or Open Systems Interconnection Model
+is an absolute fundamental model used in
+networking. This critical model provides
+a framework dictating how all networked
+devices will send, receive and interpret
+data.
+
+The application layer of the OSI model is the layer
+that you will be most familiar with. This familiarity is
+because the application layer is the layer in which
+protocols and rules are in place to determine how the
+user should interact with data sent or received.
+
+Layer 6 of the OSI model is the layer in which
+standardization starts to take place.
+This layer acts as a translator for data to and from the
+application layer (layer 7). The receiving computer
+will also understand data sent to a computer in one
+format destined for in another format. For example,
+when you send an email, the other user may have
+another email client to you, but the contents of the
+email will still need to display the same.
+Security features such as data encryption (HTTPS)
+occur at this layer.
+
+Once data has been correctly translated or formatted from the
+presentation layer (layer 6), the session layer (layer 5) will
+begin to create a connection to the other computer that the data
+is destined for. When a connection is established, a session is
+created. Whilst this connection is active, so is the session.
+The session layer (layer 5) synchronizes the two computers to
+ensure that they are on the same page before data is sent and
+received. Once these checks are in place, the session layer will
+begin to divide up the data sent into smaller chunks of data and
+begin to send them (packets) one at a time. If the connection is
+lost, only the chunks that weren't yet sent will have to be sent
+again — not the entire piece of the data (think of it as loading a
+save file in a video game).
+
+The Transmission Control Protocol (TCP)
+Layer 4 of the OSI
+model plays a vital part
+in transmitting data
+across a network and
+can be a little bit
+difficult to grasp. When
+data is sent between
+devices, it follows one
+of two different
+protocols that are
+decided based upon
+several factors:
+
+Advantages of TCP
+Guarantees the accuracy of data.
+
+Disadvantages of TCP
+Requires a reliable connection between the two devices.
+If one small chunk of data is not received, then the entire
+chunk of data cannot be used.
+
+Capable of synchronising two devices to prevent each
+other from being flooded with data
+
+A slow connection can bottleneck another device as the
+connection will be reserved on the receiving computer
+the whole time.
+
+Performs a lot more processes for reliability.
+
+TCP is significantly slower than UDP because more work
+has to be done by the devices using this protocol.
+
+User Datagram Protocol (or UDP for
+short).
+
+Advantages of UDP
+
+Disadvantages of UDP
+
+UDP is much faster than TCP.
+
+UDP doesn't care if the data is received.
+It is quite flexible to software developers in
+this sense.
+
+UDP leaves the application layer (user
+software) to decide if there is any control
+over how quickly packets are sent.
+
+UDP does not reserve a continuous
+connection on a device as TCP does.
+
+This means that unstable connections result
+in a terrible experience for the user.
+
+The third layer of the OSI model (network layer) is where the magic of routing & re-assembly of data takes place (from these small chunks
+to the larger chunk). Firstly, routing simply determines the most optimal path in which these chunks of data should be sent.
+
+Briefly, these protocols include OSPF (Open Shortest Path First) and RIP (Routing Information Protocol). The factors
+that decide what route is taken is decided by the following:
+
+
+What path is the shortest? I.e. has the least amount of devices that the packet needs to travel across.
+
+
+
+What path is the most reliable? I.e. have packets been lost on that path before?
+
+
+
+Which path has the faster physical connection? I.e. is one path using a copper connection (slower) or a fibre
+(considerably faster)?
+
+The data link layer focuses on the physical addressing of the transmission. It receives a packet from the network layer
+(including the IP address for the remote computer) and adds in the physical MAC (Media Access Control) address of the
+receiving endpoint. Inside every network-enabled computer is a Network Interface Card (NIC) which comes with a
+unique MAC address to identify it.
+MAC addresses are set by the manufacturer and literally burnt into the card; they can't be changed -- although they can be
+spoofed. When information is sent across a network, it's actually the physical address that is used to identify where
+exactly to send the information.
+
+This layer is one of the easiest layers to grasp. Put simply, this layer
+references the physical components of the hardware used in networking
+and is the lowest layer that you will find. Devices use electrical signals to
+transfer data between each other in a binary numbering system (1's and
+0’s). For example, ethernet cables connecting devices, such as below:
+
+What is FTP?
+•File Transfer Protocol (FTP) is, as the name suggests , a protocol used to allow remote transfer of files over a
+network. It uses a client-server model to do this, and- as we'll come on to later- relays commands and data in a
+very efficient way.
+How does FTP work?
+A typical FTP session operates using two channels:
+• a command (sometimes called the control) channel
+• a data channel.
+As their names imply, the command channel is used for transmitting commands as well as replies to those
+commands, while the data channel is used for transferring data.
+FTP operates using a client-server protocol. The client initiates a connection with the server, the server validates
+whatever login credentials are provided and then opens the session.
+While the session is open, the client may execute FTP commands on the server.
+
+What is DNS?
+
+DNS (Domain Name System) provides a simple way for us to communicate
+with devices on the internet without remembering complex numbers. Much
+like every house has a unique address for sending mail directly to it, every
+computer on the internet has its own unique address to communicate with it
+called an IP address. An IP address looks like the following 104.26.10.229, 4
+sets of digits ranging from 0 - 255 separated by a period. When you want to
+visit a website, it's not exactly convenient to remember this complicated set
+of numbers, and that's where DNS can help. So instead of
+remembering 104.26.10.229, you can remember tryhackme.com instead.
+
+The ARP protocol or Address Resolution Protocol for short, is the technology that is responsible
+for allowing devices to identify themselves on a network.
+Simply, the ARP protocol allows a device to associate its MAC address with an IP address on the
+network. Each device on a network will keep a log of the MAC addresses associated with other
+devices.
+
+ARP Protocol
+
+When devices wish to communicate with another, they will send a broadcast to the entire
+network searching for the specific device. Devices can use the ARP protocol to find the MAC
+address (and therefore the physical identifier) of a device for communication.
+How does ARP Work?
+Each device within a network has a ledger to store information on, which is called a cache. In the
+context of the ARP protocol, this cache stores the identifiers of other devices on the network.
+In order to map these two identifiers together (IP address and MAC address), the ARP protocol
+sends two types of messages:
+• ARP Request
+• ARP Reply
+When an ARP request is sent, a message is broadcasted to every other device found on a
+network by the device, asking whether or not the device's MAC address matches the requested IP
+address. If the device does have the requested IP address, an ARP reply is returned to the initial
+device to acknowledge this. The initial device will now remember this and store it within its
+cache (an ARP entry).
+
+DHCP
+• IP addresses can be assigned either manually, by
+entering them physically into a device, or
+automatically and most commonly by using
+a DHCP (Dynamic Host Configuration Protocol)
+server. When a device connects to a network, if it
+has not already been manually assigned an IP
+address, it sends out a request (DHCP Discover) to
+see if any DHCP servers are on the network. The
+DHCP server then replies back with an IP address
+the device could use (DHCP Offer). The device
+then sends a reply confirming it wants the offered
+IP Address (DHCP Request), and then lastly, the
+DHCP server sends a reply acknowledging this has
+been completed, and the device can start using the
+IP Address (DHCP ACK).
+
+What is HTTP? (HyperText Transfer Protocol)
+HTTP is what's used whenever you view a website, developed by Tim Berners-Lee and his team between
+1989-1991. HTTP is the set of rules used for communicating with web servers for the transmitting of
+webpage data, whether that is HTML, Images, Videos, etc.
+What is HTTPS? (HyperText Transfer Protocol Secure)
+HTTPS is the secure version of HTTP. HTTPS data is encrypted so it not only stops people from seeing the
+data you are receiving and sending, but it also gives you assurances that you're talking to the correct web
+server and not something impersonating it.
+What is a URL? (Uniform Resource Locator)
+If you’ve used the internet, you’ve used a URL before. A URL is predominantly an instruction on how to
+access a resource on the internet. The below image shows what a URL looks like with all of its features (it
+does not use all features in every request).
+
+Scheme: This instructs on what protocol to use for accessing the resource such as HTTP, HTTPS, FTP (File Transfer Protocol).
+User: Some services require authentication to log in, you can put a username and password into the URL to log in.
+Host: The domain name or IP address of the server you wish to access.
+Port: The Port that you are going to connect to, usually 80 for HTTP and 443 for HTTPS, but this can be hosted on any port between
+1 - 65535.
+Path: The file name or location of the resource you are trying to access.
+Query String: Extra bits of information that can be sent to the requested path. For example, /blog?id=1 would tell the blog path that
+you wish to receive the blog article with the id of 1.
+Fragment: This is a reference to a location on the actual page requested. This is commonly used for pages with long content and can
+have a certain part of the page directly linked to it, so it is viewable to the user as soon as they access the page.
+GET Request
+This is used for getting information from a web server.
+POST Request
+This is used for submitting data to the web server and potentially creating new records
+PUT Request
+This is used for submitting data to a web server to update information
+DELETE Request
+This is used for deleting information/records from a web server.
+
+HTTP Status Codes:
+
+The outcome of their request and also potentially how to handle it.
+These status codes can be broken down into 5 different ranges:
+
+100199
+
+Information Response
+These are sent to tell the client the first part of
+their request has been accepted and they should continue sending the rest
+of their request. These codes are no longer very common.
+
+200 - OK
+
+200299
+
+Success
+This range of status codes is used to tell the client their
+request was successful.
+
+401 - Not You are not currently allowed to view this resource until you have
+Authorise authorised with the web application, most commonly with a username
+d
+and password.
+
+300399
+
+Redirection These are used to redirect the client's request to another
+resource. This can be either to a different webpage or a different website
+altogether.
+
+400499
+
+Client Errors
+request.
+
+Used to inform the client that there was an error with their
+
+500599
+
+Server Errors This is reserved for errors happening on the
+server-side and usually indicate quite a major problem with the server
+handling the request.
+
+The request was completed successfully.
+
+404 - Page The page/resource you requested does not exist.
+Not
+Found
+
+https://tryhackme.com/room/intermediatenmap
+
+
+
+
+
+
+---------------------------------------------- 4 ----------------------------------------------
+
+
+განსახილველი საკითზები:
+მავნე პროგრამები:
+• ვირუსები, ვორმები და ტროას ცხენები;
+• ლოგიკური ბომბები, გამომძალველი მავნე პროგრამები,
+ბექდორები და რუთკიტები;
+• სპამი და ფიშინგი.
+თაღლითობა:
+• სოციალური ინჟინერია;
+• თაღლითობის მეთოდები.
+
+Malware
+The word malware is derived from the term MALicious softWARE. Therefore, any software
+that has a malicious purpose can be considered malware. Malware is further classified into
+different categories based on its behavior.
+Malware Analysis is an important skill to have. As a quick overview, Malware Analysis is
+performed by the following people in the Security Industry:
+
+
+
+
+
+
+Security Operations teams analyze malware to write detections for malicious activity in
+their networks.
+Incident Response teams analyze malware to determine what damage has been done to an
+environment to remediate and revert that damage.
+Threat Hunt teams analyze malware to identify threats, which they use to hunt for malware
+in a network.
+Malware Researchers in security product vendor teams analyze malware to add detections
+for them in their security products.
+Threat Research teams in OS Vendors like Microsoft and Google analyze malware to
+discover the vulnerabilities exploited and add more security features to the OS/applications.
+
+Please note that malware is like a weapon because it can produce great harm if not handled with
+care. For this reason, always take the following precautions while analyzing malware:
+
+
+
+
+
+
+
+Never analyze malware or suspected malware on a machine that does not have the sole purpose of
+analyzing malware.
+When not analyzing or moving malware samples around to different locations, always keep them
+in password-protected zip/rar or other archives so that we can avoid accidental detonation.
+Only extract the malware from this password-protected archive inside the isolated environment,
+and only when analyzing it.
+Create an isolated VM specifically for malware analysis, which has the capability of being
+reverted to a clean slate once you are done.
+Ensure that all internet connections are closed or at least monitored.
+Once you are done with malware analysis, revert the VM to its clean slate for the next malware
+analysis session to avoid residue from a previous malware execution corrupting the next one.
+Malware, however, often uses techniques to prevent an
+analyst from performing dynamic analysis. Since most dynamic
+analysis is performed in a controlled environment, most
+methods to bypass dynamic analysis include detecting the
+environment in which it is being run. Therefore, in these cases,
+the malware uses a different, benign code path if it identifies
+that it is being run in a controlled environment.
+
+To find the different puzzle pieces, you will often use various tools, tricks, and shortcuts. These techniques can
+be grouped into the following two categories:
+
+
+
+Static Analysis
+
+When malware is analyzed without being executed, it is called Static
+Analysis. In this case, the different properties of the PE file are analyzed
+without running it. Similarly, in the case of a malicious document,
+exploring the document's properties without analyzing it will be
+considered Static Analysis. Examples of static analysis include checking
+for strings in malware, checking the PE header for information related to
+different sections, or looking at the code using a disassemble. Malware
+often uses techniques to avoid static analysis. Some of these techniques
+use obfuscation, packing, or other means of hiding its properties. To
+circumvent these techniques, we often use dynamic analysis.
+
+
+
+Dynamic Analysis
+
+Static analysis might provide us with crucial information
+regarding malware, but sometimes that is not enough. We
+might need to run the malware in a controlled environment
+to observe what it does in these cases. Malware can often
+hide its properties to thwart Static Analysis. However, in
+most of those cases, Dynamic Analysis can prove fruitful.
+Dynamic analysis techniques include running the malware
+in a VM, either in a manual fashion with tools installed to
+monitor the malware's activity or in the form of sandboxes
+that perform this task automatically. The advantage here is
+that since we control the environment, we can configure it
+to avoid noise, like activity from a legitimate user or
+Windows Services. Thus, everything we observe in such
+an environment points to malware activity, making it
+easier to identify what the malware did in this scenario.
+
+In the context of cybersecurity, a virus is a type of malicious software (malware) that is designed to spread from
+one computer or device to another by attaching itself to legitimate files or programs. Once a virus infects a device, it can
+cause a range of harmful effects, such as deleting files, stealing personal information, or even taking control of the
+device.
+Viruses can spread through various means, including email attachments, downloads from the internet, or infected
+removable media such as USB drives. They can be spread by opening an infected file or clicking on a malicious link or
+attachment.
+To protect against viruses, it's important to have up-to-date antivirus software installed on your computer or device,
+and to exercise caution when downloading files or clicking on links from unknown sources. Regularly backing up
+important data can also help to mitigate the damage in case of a virus attack.
+Virustotal acts as an indexer and aggregator for various Anti Virus (AV) engines. When a checksum is submitted to
+Virsutotal, fellow malware analysts can view the AV reports attributed to that file.
+Much like a search engine, you can search for reports by a few characteristics, for example:
+
+
+
+
+The IP Addresses that samples communicate with
+Checksums
+The file itself
+https://www.virustotal.com/gui/home/upload
+
+In the context of cybersecurity, a worm is a type of malicious software (malware) that is designed to spread from one
+device to another by exploiting vulnerabilities in a network or operating system. Unlike viruses, which require a user
+to open or execute an infected file, worms can spread automatically and independently, without any action on the part
+of the user.
+Once a worm infects a device, it can spread to other devices on the same network or connected to the internet,
+causing a range of harmful effects, such as slowing down network performance, stealing sensitive data, or even
+taking control of devices.
+Worms can exploit various vulnerabilities, such as unpatched software, weak passwords, or social engineering attacks
+to trick users into clicking on a malicious link or attachment.
+To protect against worms, it's important to keep software and operating systems up-to-date with the latest security
+patches, use strong passwords, and avoid clicking on links or opening attachments from unknown sources. Firewalls
+and intrusion detection systems can also help to prevent or detect the spread of worms in a network.
+
+In cybersecurity, a Trojan horse (often shortened to "Trojan") is a type of malicious software
+(malware) that is disguised as a legitimate program or file but actually performs a malicious action
+when executed.
+Trojan horses can be designed to perform a variety of harmful actions, such as stealing sensitive
+information, disabling security features, or allowing unauthorized access to a computer or
+network. They can also be used to install other types of malware, such as viruses or worms, onto a
+compromised device.
+Trojan horses are typically distributed through social engineering tactics, such as phishing emails
+or downloads from fake websites, that trick the user into installing the malware. They can also be
+hidden in legitimate-looking software or files, making them difficult to detect.
+To protect against Trojan horses, it's important to use antivirus software and keep it up-to-date,
+avoid downloading software or files from unknown sources, and be cautious of unexpected emails
+or messages. Regularly backing up important data can also help to mitigate the damage in case of
+a Trojan attack.
+
+A logic bomb is a type of malicious code or program that is designed to execute a set of
+instructions when specific conditions are met. The conditions could be a particular date and time,
+the occurrence of a specific event, or a particular action taken by the user. When the logic bomb is
+triggered, it can perform a variety of actions, such as deleting files, corrupting data, or even causing
+a system to crash.
+Unlike other types of malware, such as viruses or worms, logic bombs do not replicate
+themselves or spread to other systems. Instead, they lie dormant on a system until their trigger
+conditions are met. Logic bombs are typically installed by insiders, such as disgruntled employees,
+who have access to the system and want to cause harm to their employer.
+One example of a logic bomb was the case of Timothy Lloyd, a former employee of Omega
+Engineering. Lloyd planted a logic bomb on the company's network that was set to go off on his
+birthday. The bomb caused $10 million worth of damage to the company's systems.
+To prevent logic bomb attacks, organizations should implement strict access controls to limit
+the number of employees who have access to critical systems. They should also regularly monitor
+their systems for suspicious activity, such as unauthorized changes to files or unusual network
+traffic. In addition, organizations should conduct regular security awareness training for their
+employees to help them identify and report potential threats.
+
+“Ransomware" is a type of malicious software that encrypts a victim's files or locks them out of their
+own system, effectively holding them hostage until a ransom is paid. The ransom demand often includes a
+threat to destroy or permanently encrypt the victim's files if the ransom is not paid within a certain timeframe.
+The ransom demand typically requires payment in cryptocurrency, such as Bitcoin, to make it difficult to
+trace the transaction. Payment is usually made through a Tor network to hide the location and identity of the
+attacker.
+There are two main types of extortion malware: locker ransomware and crypto-ransomware. Locker
+ransomware locks the victim out of their system or device, making it impossible to access any files or
+applications. Crypto-ransomware encrypts the victim's files, making them unreadable until a decryption key is
+provided by the attacker.
+Extortion malware attacks are usually delivered through phishing emails or malicious downloads. Once
+the malware is installed, it begins encrypting or locking files, and displays a ransom note on the victim's
+screen.
+To protect against extortion malware attacks, it is important to regularly back up important files to an
+external device or cloud storage service. Organizations should also implement strong security measures, such
+as antivirus software, firewalls, and intrusion detection systems, to prevent malware from infiltrating their
+networks. Employees should be trained on how to recognize and avoid phishing emails, and the importance of
+regularly updating their software and systems.
+
+In the context of computer security, a backdoor is a hidden method or
+vulnerability in a computer system or software that allows an attacker to gain
+unauthorized access to the system or data. Essentially, a backdoor provides a way
+for an attacker to bypass normal security measures and gain control of a system,
+often without being detected.
+Backdoors can be intentionally or unintentionally created. For example, a
+software developer might include a backdoor in their software as a way to provide
+access for debugging or maintenance purposes, but if the backdoor is discovered by
+an attacker, it could be exploited to gain unauthorized access. Alternatively, a
+backdoor might be created accidentally through a programming error or
+vulnerability that an attacker discovers and exploits.
+Backdoors can be a serious security threat, and detecting and removing them
+can be challenging. Organizations can take steps to minimize the risk of backdoors
+by implementing strong security measures, such as access controls and regular
+security audits, and by carefully vetting the software and hardware they use to
+ensure that it is free from known vulnerabilities.
+
+A rootkit is a type of malicious software (malware) that is designed to hide its presence
+and activities on a computer system. Rootkits are named after the "root" user account in
+Unix/Linux systems, which has complete control over the system and can perform any action.
+Rootkits are typically installed by attackers or malware to gain unauthorized access to a
+computer system and maintain persistence on the system, even after the malware has been
+detected and removed. They achieve this by modifying the operating system or other software
+components to hide their presence and activities from antivirus and other security software.
+Rootkits can be used to perform a wide range of malicious activities, such as stealing
+sensitive information, monitoring user activity, launching attacks on other systems, and more.
+Some rootkits are designed to be highly sophisticated and difficult to detect, making them a
+serious threat to computer security.
+Detecting and removing rootkits can be challenging, as they are designed to be hidden and
+difficult to detect. However, there are specialized tools and techniques that can be used to
+detect and remove rootkits, such as anti-rootkit software and forensic analysis tools.
+Additionally, implementing strong security measures, such as keeping software up-to-date and
+using anti-malware software, can help prevent rootkits from being installed in the first place.
+
+Spam and Phishing:
+Spam and Phishing are common social engineering attacks. In social engineering, phishing attack vectors
+can be a phone call, a text message, or an email. The first email classified as spam dates back to 1978, and it's still
+thriving today. Phishing is a serious attack vector that you, as a defender, will have to defend against. Many
+products help combat spam and phishing, but realistically these emails still can get through. When they do, as a
+Security Analyst, you need to know how to analyze these emails to determine if they're malicious or benign.
+Furthermore, you will need to gather information about the email to update your security products to prevent
+malicious emails from making their way back into a user's inbox.
+The man who invented the concept of emails and made the @ symbol famous was Ray Tomlinson. The
+invention of the email dates back to the 1970s for ARPANET. Yep, probably before you were born.
+Email address:
+
+
+
+
+User Mailbox (or Username)
+@
+Domain
+To simplify this even further, think about the street on which you live on.
+
+You can think of your street as the domain. The recipient's first/last name, along with the house number in
+this scenario, represents the user mailbox. With this information, the postal worker delivering the mail knows into
+which mailbox to put the letter(s).
+
+Below is an explanation of each numbered point from the above
+diagram:
+1. Alexa composes an email to Billy (billy@johndoe.com) in
+her favorite email client. After she's done, she hits the send
+button.
+2.
+
+The SMTP server needs to determine where to send Alexa's
+email. It queries DNS for information associated
+with johndoe.com.
+
+3.
+
+The DNS server obtains the information johndoe.com and
+sends that information to the SMTP server.
+
+4.
+
+The SMTP server sends Alexa's email across the Internet to
+Billy's mailbox at johndoe.com.
+
+5.
+
+In this stage, Alexa's email passes through
+various SMTP servers and is finally relayed to the
+destination SMTP server.
+
+6.
+
+Alexa's email finally reached the destination SMTP server.
+
+7.
+
+Alexa's email is forwarded and is now sitting in the
+local POP3/IMAP server waiting for Billy.
+
+8.
+
+Billy logs into his email client, which queries the
+local POP3/IMAP server for new emails in his mailbox.
+
+9.
+
+Alexa's email is copied (IMAP) or downloaded (POP3) to
+Billy's email client.
+
+Different types of malicious emails can be classified as one of the
+following:
+
+
+Spam - unsolicited junk emails sent out in bulk to a large number of
+recipients. The more malicious variant of Spam is known as MalSpam.
+
+
+
+Phishing - emails sent to a target(s) purporting to be from a trusted entity to
+lure individuals into providing sensitive information.
+
+
+
+Spear phishing - takes phishing a step further by targeting a specific
+individual(s) or organization seeking sensitive information.
+
+
+
+Whaling - is similar to spear phishing, but it's targeted specifically to C-Level
+high-position individuals (CEO, CFO, etc.), and the objective is the same.
+
+
+
+Smishing - takes phishing to mobile devices by targeting mobile users with
+specially crafted text messages.
+
+
+
+Vishing - is similar to smishing, but instead of using text messages for the
+social engineering attack, the attacks are based on voice calls.
+
+When it comes to phishing, the modus operandi is usually the
+same depending on the objective of the email.
+For example, the objective can be to harvest credentials, and
+another is to gain access to the computer.
+
+Below are typical characteristics phishing emails have in
+common:
+
+
+The sender email name/address will masquerade as a
+trusted entity (email spoofing)
+
+
+
+The email subject line and/or body (text) is written with
+a sense of urgency or uses certain keywords such
+as Invoice, Suspended, etc.
+
+
+
+The email body (HTML) is designed to match a trusting
+entity (such as Amazon)
+
+
+
+The email body (HTML) is poorly formatted or written
+(contrary from the previous point)
+
+
+
+The email body uses generic content, such as Dear
+Sir/Madam.
+
+
+
+Hyperlinks (oftentimes uses URL shortening services to
+hide its true origin)
+
+
+
+A malicious attachment posing as a legitimate document
+
+We'll look at each of these techniques (characteristics) in
+greater detail in the next room within the Phishing
+module.
+
+Reminder: When dealing with hyperlinks and
+attachments, you need to be careful not to accidentally
+click on the hyperlink or the attachment.
+Hyperlinks and IP addresses should be
+'defanged'. Defanging is a way of making the
+URL/domain or email address unclickable to avoid
+accidental clicks, which may result in a serious security
+breach. It replaces special characters, like "@" in the
+email or "." in the URL, with different characters. For
+example, a highly suspicious domain,
+http://www.suspiciousdomain.com, will be changed to
+hxxp[://]www[.]suspiciousdomain[.]com before forwarding
+it to the SOC team for detection.
+Analyze the email titled email3.eml within the virtual
+machine and answer the questions below.
+
+https://www.phishingbox.com/phishing-test
+https://www.opendns.com/phishing-quiz/
+
+What is Social Engineering?
+
+Social Engineering is the term used to describe any cyberattack where a human (rather
+than a computer) is the target; for this reason, it is sometimes referred to as "People
+Hacking". For example, if an attacker wishes to obtain a victim's password,
+they could attempt to guess or brute-force the password — or they could simply ask you.
+Whilst the example linked above is relatively straightforward, social engineering attacks
+can become very complex and often result in an attacker gaining significant control over
+a target's life — both online and offline. Social engineering attacks are often multilayered and escalate due to the snowball effect. For example, an attacker may start off by
+obtaining a small amount of publicly available information from a victim's social media
+presence, which they could then use to get more information from, say, your phone or
+broadband provider. The information obtained from the second stage could then be used
+to gain more useful information, then escalate step-by-step to something like the victim's
+bank account.
+The best way to understand social engineering is to see it in action! These videos from Defcon23
+(one of the largest hacking conferences in the world) and CNN demonstrate some of the immense
+power in social engineering. They are both well worth a watch!
+
+https://www.youtube.com/watch?v=TrTk6DsEJ2Q
+
+Other Forms of Social Engineering
+
+Charismatic hackers calling your phone company and taking
+possession of your account is one form of social engineering;
+however, there are many other types. Social engineering is
+a vast topic, encompassing any attack that relies on tricking
+humans into giving the attacker access, rather than attacking the
+technology directly. Whilst direct interaction with targets is the
+most common style of social engineering, other examples include
+dropping USB storage devices in public (e.g. in company car
+parks) in the hope that someone (often a company employee) will
+pick one up and plug it into a sensitive computer. In a similar vein,
+attackers may leave a "charging cable" plugged into a socket in a
+public place. In actuality, the cable contains malicious software
+such as keyloggers or tools to take control of the victim's device.
+Case Study: Stuxnet (Click to Read)
+
+In short, the limits to social engineering are at the bounds of an attacker's
+imagination. A good social engineer can (and will) use a plethora of
+psychological tricks under any plausible context to "hack" their targets.
+
+Staying Safe from Social Engineering Attacks
+
+In many ways, it is very tricky to stay safe from social engineering as it won't always
+be you who the attacker is talking to, but rather someone who can give them what they need
+without your consent (e.g. calling your bank whilst pretending to be you, so as to access your
+bank account). That said, there are still measures you can take to protect yourself from Social
+Engineering attacks:
+
+
+Always make sure to set up multiple forms of authentication, and ensure that providers respect these.
+For example, set difficult to guess — or otherwise incorrect — answers to security questions (making
+sure to store the answers somewhere safe!), and make sure that these questions are asked when you try
+to access accounts over the phone.
+
+
+
+Never plug external media (e.g. USBs/CDs/etc) into a computer that you care about or that is
+connected to any other devices. Ideally, don't plug the media in at all, and instead give it to your local
+police for safekeeping.
+
+
+
+Always insist on proof of identity when a stranger calls or messages you claiming to work for a
+company whose services you use. Where possible, confirm with a known phone number or email
+address that the call or message you received was legitimate (i.e. use a trusted method to get in
+contact with the company to confirm). Remember that no legitimate employee will ever ask for your
+password or other information that protects your account.
+
+Cyber fraud methods:
+There are several fraud methods in cybersecurity that cybercriminals use to gain unauthorized access to sensitive information, steal
+money, or cause harm. Here are some of the most common methods:
+
+
+
+
+
+
+
+
+
+Phishing: This is a type of fraud that involves sending emails or messages that appear to be from legitimate sources, such as
+banks or social media platforms. The aim is to trick the recipient into providing personal information, such as login credentials
+or credit card details.
+Malware: Malware refers to malicious software that is designed to harm computer systems or steal sensitive information. This
+can include viruses, worms, Trojans, and ransomware.
+Social engineering: Social engineering is a technique used to manipulate people into divulging sensitive information or
+performing actions that they wouldn't normally do. This can include techniques such as pretexting, baiting, or quid pro quo.
+Business email compromise (BEC): BEC involves using email to impersonate a trusted partner or vendor, such as a bank or
+supplier, to trick an employee into transferring funds or sharing sensitive information.
+Identity theft: Identity theft involves stealing someone's personal information, such as their name, address, Social Security
+number, or credit card details, and using that information to commit fraud.
+Card skimming: Card skimming involves installing devices on ATM machines or payment terminals that can capture credit card
+information when the card is swiped.
+Password attacks: Password attacks involve attempting to guess or crack a user's password to gain access to their accounts. This
+can include brute force attacks, dictionary attacks, or phishing attacks designed to trick users into revealing their passwords.
+
+It is important to be aware of these fraud methods and take steps to protect yourself from cyber threats, such as using strong
+passwords, enabling two-factor authentication, and being cautious about clicking on links or opening attachments in emails.
+
+https://tryhackme.com/room/bolt
+https://elearning.gov.ge/
+
+
+
+
+
+---------------------------------------------- 5 ----------------------------------------------
+
+
+სისუსტეები, კიბერსაფრთხეები და თავდასხმები; ქსელური თავდასხმები
+განსახილველი საკითხები:
+თავდასხმის ინიციატორები, თავდასხმითი ინსტრუმენტები;
+გავრცელებული საფრთხეები და შეტევები:
+დაზვერვითი თავდასხმები, წვდომითი თავდასხმები, სოციალური ინჟინერიის
+თავდასხმები, მომსახურებაზე უარის თქმის თავდასხმები;
+IP დაუცველობები და საფრთხეები;
+TCP და UDP დაუცველობები;
+სნიფინგი და სპუფინგი.
+
+Cyber attacks can be initiated by a wide range of actors, including:
+Hackers: Individuals or groups of individuals who attempt to gain unauthorized access to a computer system or
+network for financial gain, political reasons, or personal satisfaction.
+Cybercriminals: Individuals or groups who engage in criminal activities such as fraud, theft, and extortion using
+computers or the internet.
+State-sponsored actors: Government agencies or organizations that carry out cyber attacks on other countries,
+organizations or individuals for political, economic, or military reasons.
+Insiders: Employees, contractors or business partners who have authorized access to a computer system or network
+and use their access to carry out malicious activities.
+Activists: Individuals or groups who engage in cyber attacks to advance a particular cause or agenda, such as
+hacktivism.
+Script kiddies: Individuals who use pre-made tools and scripts to carry out cyber attacks without necessarily having
+deep technical knowledge.
+It is important to note that anyone with access to a computer or the internet can potentially initiate a cyber attack, and
+that the motivations and methods of attackers can vary widely. As such, it is important for individuals and organizations
+to take steps to protect themselves against cyber attacks, including implementing strong security measures and staying
+vigilant for potential threats.
+
+Cyber attack instruments are the tools, techniques, and technologies used by cyber attackers to carry out
+their attacks. These instruments can be broadly categorized into several categories:
+Malware: Malware is software that is designed to cause harm to a computer system or network, and is one of the most
+commonly used attack instruments. Malware can take many forms, including viruses, trojans, worms, and ransomware, and can
+be used to steal data, disrupt systems, or gain unauthorized access to networks.
+Social engineering: Social engineering is a technique used by attackers to manipulate human behavior and trick individuals into
+divulging sensitive information or performing actions that can be used to gain unauthorized access to a system or network.
+Examples of social engineering attacks include phishing, pretexting, and baiting.
+DoS: DoS attacks are designed to flood a system or network with traffic in order to make it unavailable to users. This is typically
+achieved through the use of botnets, which are networks of compromised devices that are controlled by the attacker.
+Password attacks: Password attacks are used to gain unauthorized access to systems or networks by guessing or cracking
+passwords. This can be achieved through brute-force attacks, dictionary attacks, or other techniques that exploit weaknesses in
+password security.
+Network scanning and probing: Attackers can use tools such as port scanners and vulnerability scanners to identify
+weaknesses in a system or network that can be exploited to gain unauthorized access or carry out other malicious activities.
+Physical attacks: Physical attacks involve gaining physical access to a system or network in order to steal data, plant malware,
+or carry out other malicious activities.
+These are just a few examples of the many cyber attack instruments that are used by attackers to carry out their attacks. As such,
+it is important for individuals and organizations to implement strong cybersecurity measures and stay vigilant for potential
+threats in order to protect themselves against these attack instruments.
+
+Social engineering attacks
+Social engineering is one of the most common and successful malicious techniques. Because it exploits basic human trust, social engineering
+has proven to be a particularly effective way of manipulating people into performing actions that they might not otherwise perform. To be
+persuasive, social engineering attacks rely on one or more of the following principles.
+Consensus/Social Proof
+The principle of consensus or social proof refers to the fact that without an explicit instruction to behave in a certain way, many people will
+act just as they think others would act. A social engineering attack can use this instinct either to persuade the target that to refuse a request
+would be odd or to exploit polite behavior to slip into a building while someone holds the door for them. As another example, an attacker
+may be able to fool a user into believing that a malicious website is actually legitimate by posting numerous fake reviews and testimonials
+praising the site. The victim, believing many different people have judged the site acceptable, takes this as evidence of the site's legitimacy
+and places their trust in it.
+Authority and Intimidation
+Many people find it difficult to refuse a request by someone they perceive as superior in rank or expertise. Social engineers can try to exploit
+this behavior to intimidate their target by pretending to be a senior executive. An attack might be launched by impersonating someone who
+would often be deferred to, such as a police officer, judge, or doctor. Another technique is using spurious technical arguments and jargon.
+Social engineering can exploit the fact that few people are willing to admit ignorance.
+Scarcity and Urgency
+Often also deployed by salespeople, creating a false sense of scarcity or urgency can disturb people's ordinary decision-making process. The
+social engineer can try to pressure his or her target by demanding a quick response. For example, the social engineer might try to get the
+target to sign up for a "limited time" or "invitation-only" trial and request a username and password for the service (hoping that the target will
+offer a password he or she has used for other accounts). Fake anti-virus products generate a sense of urgency by trying to trick users into
+thinking that their computer is already infected with malware.
+
+Phishing, Whaling, and Vishing
+Phishing is a combination of social engineering and spoofing. It persuades or tricks the target into
+interacting with a malicious resource disguised as a trusted one, traditionally using email as the vector. A
+phishing message might try to convince the user to perform some action, such as installing disguised
+malware or allowing a remote access connection by the attacker. Other types of phishing campaign use a
+spoof website set up to imitate a bank or e ‑commerce site or some other web resource that should be
+trusted by the target. The attacker then emails users of the genuine website informing them that their
+account must be updated or with some sort of hoax alert or alarm, supplying a disguised link that actually
+leads to the spoofed site. When the user authenticates with the spoofed site, their logon credentials are
+captured.
+There are several phishing variants to be aware of:
+• Spear phishing—a phishing scam where the attacker has some information that makes an individual
+target more likely to be fooled by the attack. Each phishing message is tailored to address a specific target
+user. The attacker might know the name of a document that the target is editing, for instance, and send a
+malicious copy, or the phishing email might show that the attacker knows the recipient's full name, job
+title, telephone number, or other details that help convince the target that the communication is genuine.
+• Whaling—a spear phishing attack directed specifically against upper levels of management in the
+organization (CEOs and other "big fish"). Upper management may also be more vulnerable to ordinary
+phishing attacks because of their reluctance to learn basic security procedures.
+• Vishing—a phishing attack conducted through a voice channel (telephone or VoIP, for instance). For
+example, targets could be called by someone purporting to represent their bank asking them to verify a
+recent credit card transaction and requesting their security details. It can be much more difficult for
+someone to refuse a request made in a phone call compared to one made in an email.
+
+1. https://www.youtube.com/watch?v=Pd7x2bHVSAs
+2. https://www.youtube.com/watch?v=UzvPP6_LRHc
+3. https://phishingquiz.withgoogle.com/
+4. https://haveibeenpwned.com/
+
+Direct access attack vector refers to a method of attack where the attacker gains physical access to a system or device and
+attempts to exploit vulnerabilities or weaknesses in the system. This type of attack can be carried out by stealing or
+obtaining physical access to a device or system, such as a computer or network server, and attempting to gain unauthorized
+access to sensitive data or information.
+Examples of direct access attacks include stealing passwords, installing malware, modifying configuration settings, or
+accessing and manipulating data directly from a system. Direct access attacks can be particularly challenging to prevent or
+detect, as they do not require the attacker to bypass any security measures such as firewalls or intrusion detection systems.
+As a result, it is essential to implement physical security measures, such as access controls and surveillance cameras, to
+protect against direct access attacks.
+Direct access—this is a type of physical or local attack. The threat actor could exploit an unlocked workstation, use a boot
+disk to try to install malicious tools, or steal a device, for example.
+Intelligence attacks refer to a type of cyber attack where the perpetrator tries to gather sensitive information, data or
+intelligence about a target individual, organization or government entity. The purpose of intelligence attacks can vary, and
+may include corporate espionage, financial fraud, intellectual property theft, or even state-sponsored spying. These attacks
+often involve the use of advanced techniques such as social engineering, phishing, malware, and other forms of cyber
+exploitation to gain unauthorized access to sensitive information.
+Intelligence attacks can have serious consequences, ranging from financial loss, reputational damage, loss of intellectual
+property, and even national security threats. As such, it is important for organizations and individuals to take proactive steps
+to protect themselves against these types of attacks, including implementing strong cybersecurity measures, training
+employees on how to identify and respond to potential threats, and monitoring their networks for any suspicious activity.
+
+Distributed Denial of Service Attacks
+Most denial of service (DoS) attacks against websites and gateways are distributed DoS (DDoS). This means that
+the attack is launched from multiple hosts simultaneously. Typically, a threat actor will compromise machines to
+use as handlers in a command and control network. The handlers are used to compromise hundreds or thousands or
+millions of hosts with DoS tools (bots) forming a botnet.
+Some types of DDoS attacks simply aim to consume network bandwidth, denying it to legitimate hosts, by using
+overwhelming numbers of bots. Others cause resource exhaustion on the hosts' processing requests, consuming
+CPU cycles and memory. This delays processing of legitimate traffic and could potentially crash the host system
+completely. For example, a SYN flood attack works by withholding the client's ACK packet during TCP's threeway handshake. Typically, the client's IP address is spoofed, meaning that an invalid or random IP is entered so the
+server's SYN/ACK packet is misdirected. A server, router, or firewall can maintain a queue of pending connections,
+recorded in its state table. When it does not receive an ACK packet from the client, it resends the SYN/ACK packet
+a set number of times before timing out the connection. The problem is that a server may only be able to manage a
+limited number of pending connections, which the DoS attack quickly fills up. This means that the server is unable
+to respond to genuine traffic.
+
+TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are two of the most commonly used protocols
+for transmitting data over computer networks. While both protocols have their strengths and weaknesses, they are vulnerable
+to a variety of security threats, including:
+Denial of Service (DoS) attacks: Both TCP and UDP are vulnerable to DoS attacks, which involve flooding a system or
+network with traffic in order to overwhelm it and cause it to stop functioning properly.
+Man-in-the-middle (MitM) attacks: Both TCP and UDP are vulnerable to MitM attacks, which involve intercepting and
+manipulating data as it is transmitted over a network in order to steal sensitive information or carry out other malicious
+activities.
+SYN flooding attacks: TCP is particularly vulnerable to SYN flooding attacks, which involve sending a large number of
+SYN requests to a system in order to overwhelm it and cause it to stop functioning properly.
+UDP-based amplification attacks: UDP is vulnerable to amplification attacks, which involve sending a small amount of
+traffic to a vulnerable UDP-based service in order to elicit a much larger response that can be used to carry out a DoS attack.
+UDP-based reflection attacks: UDP is also vulnerable to reflection attacks, which involve spoofing the source address of a
+UDP packet in order to redirect a response to a victim system, which can then be used to carry out a DoS attack.
+To protect against these and other vulnerabilities, it is important for individuals and organizations to implement strong
+cybersecurity measures, such as firewalls, intrusion detection and prevention systems, and other security technologies.
+Additionally, it is important to stay up-to-date on the latest security threats and vulnerabilities, and to take steps to mitigate
+any potential risks as they arise.
+
+IP (Internet Protocol) is a core protocol used for transmitting data over computer networks, and like other protocols,
+it is vulnerable to a variety of security threats. Some common IP vulnerabilities include:
+IP address spoofing: IP address spoofing involves altering the source IP address of a communication in order to
+deceive the recipient into thinking that it is coming from a different source. This can be used to carry out a variety of
+malicious activities, including DoS attacks and MitM attacks.
+IP fragmentation attacks: IP fragmentation attacks involve sending packets that are too large to be transmitted over a
+network, causing them to be fragmented into smaller packets. Attackers can use this technique to overwhelm a system
+or network with a large number of fragmented packets, causing it to stop functioning properly.
+IP routing attacks: IP routing attacks involve manipulating the routing information contained within IP packets in
+order to redirect traffic to a different location, such as a fake website designed to steal sensitive information.
+IP-based DoS attacks: IP-based DoS attacks involve flooding a system or network with traffic in order to overwhelm
+it and cause it to stop functioning properly.
+IP-based MitM attacks: IP-based MitM attacks involve intercepting and manipulating data as it is transmitted over a
+network in order to steal sensitive information or carry out other malicious activities.
+To protect against these and other IP vulnerabilities, it is important for individuals and organizations to implement
+strong cybersecurity measures, including firewalls, intrusion detection and prevention systems, and other security
+technologies. Additionally, it is important to stay up-to-date on the latest security threats and vulnerabilities, and to
+take steps to mitigate any potential risks as they arise.
+
+Sniffing
+Sniffing is a technique used in computer networking to intercept and monitor network traffic. This
+involves capturing data packets as they are transmitted over a network, with the aim of analyzing the data
+contained within them. Sniffing can be used for both legitimate purposes, such as network
+troubleshooting and security monitoring, as well as malicious purposes, such as eavesdropping on
+sensitive communications or stealing data.
+Sniffing can be carried out using a variety of tools, including network sniffers, packet sniffers, and
+protocol analyzers. These tools work by capturing and analyzing the data packets that are transmitted over
+a network, and can provide information on the source and destination of the packets, as well as the data
+contained within them.
+While sniffing can be a useful tool for network troubleshooting and security monitoring, it can also be
+used for malicious purposes. For example, an attacker could use sniffing to intercept and steal sensitive
+information, such as passwords or credit card numbers, as they are transmitted over a network. As such, it
+is important for individuals and organizations to take steps to protect themselves against sniffing attacks,
+including using encryption technologies to secure sensitive data and implementing strong network
+security measures to prevent unauthorized access.
+
+Spoofing
+Spoofing is a technique used in computer networking to deceive a system or user by
+disguising the identity or source of a communication. This involves creating a fake identity
+or altering the source of a communication in order to gain access to sensitive information or
+carry out other malicious activities. Spoofing can take many different forms, including:
+IP address spoofing: This involves altering the source IP address of a communication in order
+to deceive the recipient into thinking that it is coming from a different source.
+Email spoofing: This involves creating an email that appears to be from a trusted source in
+order to trick the recipient into divulging sensitive information or performing actions that
+can be used for malicious purposes.
+DNS spoofing: This involves altering the DNS records for a domain in order to redirect traffic
+to a different location, such as a fake website designed to steal sensitive information.
+Caller ID spoofing: This involves altering the caller ID information on a phone call in order to
+deceive the recipient into thinking that it is coming from a different source.
+Spoofing attacks can be used for a variety of malicious purposes, including stealing
+sensitive information, gaining unauthorized access to systems or networks, or carrying out
+phishing attacks. As such, it is important for individuals and organizations to implement
+strong cybersecurity measures and stay vigilant for potential spoofing attacks in order to
+protect themselves against this type of threat.
+
+
+
+
+
+---------------------------------------------- 6 ----------------------------------------------
+
+
+
+განსახილველი საკითხები:
+ფაიერვოლები;
+შემოჭრების გამოვლენისა და პრევენციის სისტემები;
+წვდომის კონტროლის სიები;
+SNMP, NetFlow, COPE, VDI
+AAA სერვერები;
+VPN.
+
+A firewall is a device within a network responsible for determining what traffic is allowed to
+enter and exit. Think of a firewall as border security for a network. An administrator can
+configure a firewall to permit or deny traffic from entering or exiting a network based on
+numerous factors such as:
+1.
+
+Where the traffic is coming from? (has the firewall been told to accept/deny traffic from a
+specific network?)
+
+2.
+
+Where is the traffic going to? (has the firewall been told to accept/deny traffic destined
+for a specific network?)
+
+3.
+
+What port is the traffic for? (has the firewall been told to accept/deny traffic destined for
+port 80 only?)
+
+4.
+
+What protocol is the traffic using? (has the firewall been told to accept/deny traffic that is
+UDP, TCP or both?)
+
+Firewalls perform packet inspection to determine the answers to these questions.
+
+Firewalls come in all shapes and sizes, monitoring entire traffic or certain ports.
+
+Traditional firewalls, such as packet-filtering firewalls, expect a port number to dictate the protocol being used and
+identify the application. Consequently, if you want to block an application, you need to block a port. Unfortunately, this
+is no longer valid as many applications camouflage themselves using ports assigned for other applications. In other
+words, a port number is no longer enough nor reliable to identify the application being used. Add to this the pervasive
+use of encryption, for example, via SSL/TLS.
+Next-Generation Firewall (NGFW) is designed to handle the new challenges facing modern enterprises. For instance,
+some of NGFW capabilities include:
+
+1.
+2.
+3.
+4.
+5.
+
+Integrate a firewall and a real-time Intrusion Prevention System (IPS). It can stop any detected threat in real-time.
+Identify users and their traffic. It can enforce the security policy per-user or per-group basis.
+Identify the applications and protocols regardless of the port number being used.
+Identify the content being transmitted. It can enforce the security policy in case any violating content is detected.
+Ability to decrypt SSL/TLS and SSH traffic. For instance, it restricts evasive techniques built around encryption to
+transfer malicious files.
+6. A properly configured and deployed NGFW renders many attacks useless.
+
+A WAF or web application firewall helps protect
+web applications by filtering and monitoring
+HTTP traffic between a web application and the
+Internet. It typically protects web applications
+from attacks such as cross-site forgery, cross-sitescripting (XSS), file inclusion, and SQL injection,
+among others.
+
+XSS (Cross-Site Scripting), XSRF (Cross-Site Request Forgery), and
+SQL (Structured Query Language) are all related to web security.
+•XSS (Cross-Site Scripting) is a type of security vulnerability where an
+attacker injects malicious code into a website, which is then executed by
+the user's web browser. This can lead to stealing user data or hijacking
+user sessions.
+•XSRF (Cross-Site Request Forgery) is another type of security
+vulnerability where an attacker tricks a user into performing an action
+on a website or web application without their knowledge or consent.
+This can be done by sending the user a link to a website that executes
+the action automatically, such as making a purchase or changing a
+password.
+•SQL (Structured Query Language) is a programming language used for
+managing and manipulating relational databases. It is used to create,
+modify, and retrieve data from databases. SQL injection is a type of web
+security vulnerability where an attacker injects SQL code into a web
+application, allowing them to execute arbitrary database queries and
+potentially steal or modify data.
+All three vulnerabilities are serious threats to web security and should
+be addressed through appropriate security measures such as input
+validation, output encoding, and the use of security tokens.
+
+A Virtual Private Network (or VPN for short) is a technology that allows devices on separate networks to
+communicate securely by creating a dedicated path between each other over the Internet (known as a tunnel).
+Devices connected within this tunnel form their own private network.
+For example, only devices within the same network (such as within a business) can directly communicate.
+However, a VPN allows two offices to be connected. Let's take the diagram below, where there are three
+networks:
+1. Network #1 (Office #1)
+2. Network #2 (Office #2)
+3. Network #3 (Two devices connected via a VPN)
+The devices connected on Network #3 are still a part of Network #1 and Network #2 but also form together to
+create a private network (Network #3) that only devices that are connected via this VPN can communicate over.
+
+Network-Based Intrusion Detection Systems
+An intrusion detection system (IDS) is a means of
+using software tools to provide real-time analysis of
+either network traffic or system and application logs.
+A networkbased IDS (NIDS) captures traffic via a
+packet sniffer, referred to as a sensor. It analyzes the
+packets to identify malicious traffic and displays
+alerts to a console or dashboard.
+We can classify network traffic into:
+1. Benign traffic: This is the usual traffic that we
+expect to have and don’t want the IDS to alert
+us about.
+2. Malicious traffic: This is abnormal traffic that
+we don’t expect to see under normal conditions
+and consequently want the IDS to detect it.
+
+In the same way that we can classify network traffic, we
+can also classify host activity. The IDS detection engine
+is either built around detecting malicious traffic and
+activity or around recognizing normal traffic and activity.
+Recognizing “normal” makes it easy to detect any
+deviation from normal.
+
+IDS can be:
+1. Signature-based: A signature-based IDS requires full
+knowledge of malicious (or unwanted) traffic. In other
+words, we need to explicitly feed the signature-based
+detection engine the characteristics of malicious
+traffic. Teaching the IDS about malicious traffic can be
+achieved using explicit rules to match against.
+2. Anomaly-based: This requires the IDS to have
+knowledge of what regular traffic looks like. In other
+words, we need to “teach” the IDS what normal is so
+that it can recognize what is not normal. Teaching the
+IDS about normal traffic, i.e., baseline traffic can be
+achieved using machine learning or manual rules.
+
+Network-Based Intrusion Prevention Systems
+Compared to the passive function of an IDS, an intrusion prevention system (IPS) can provide an active
+response to any network threats that it matches.
+1. One typical preventive measure is to end the TCP session, sending a TCP reset packet to the attacking host.
+2.
+
+Another option is for the IPS to apply a temporary filter on the firewall to block the attacker's IP address
+(shunning).
+
+3. Other advanced measures include throttling bandwidth to attacking hosts, applying complex firewall
+filters, and even modifying suspect packets to render them harmless.
+4. Finally, the appliance may be able to run a script or third-party program to perform some other action not
+supported by the IPS software itself.
+
+Access Control Lists (ACLs) are a mechanism for
+controlling access to computer resources, such as files,
+directories, and network resources. An ACL is a list of
+permissions that specifies who can access a particular
+resource and what actions they are allowed to perform.
+An ACL typically includes a list of users or groups and the
+type of access each user or group has to the resource. For
+example, an ACL for a file might allow the owner of the file
+to read, write, and execute the file, while only allowing other
+users to read the file.
+ACLs are an important security feature because they help
+ensure that sensitive data is protected from unauthorized
+access. By using ACLs, administrators can control who has
+access to what resources, and can set permissions on a peruser or per-group basis. This enables administrators to grant
+or restrict access to specific resources based on the needs of
+the users or groups involved.
+
+Simple Network Management Protocol Security
+The Simple Network Management Protocol (SNMP) is a
+widely used framework for management and monitoring.
+SNMP consists of an SNMP monitor and agents.
+• The agent is a process (software or firmware) running on a
+switch, router, server, or other SNMP-compatible network
+device.
+Simple Network Management Protocol (SNMP) is a protocol
+used to manage and monitor network devices. SNMP
+security involves implementing various measures to protect
+SNMP communications from unauthorized access and
+malicious attacks. These measures include verifying the
+identity of users and devices, encrypting messages,
+controlling access to SNMP data, and monitoring for
+security incidents. SNMP security can be implemented
+using security protocols like SNMPv3 best practices like
+changing default SNMP community strings and configuring
+access control lists. The goal of SNMP security is to ensure
+that only authorized users can access and modify SNMP data,
+and to protect SNMP communications from interception and
+tampering.
+
+NetFlow is a network protocol developed by Cisco that provides visibility
+into network traffic and bandwidth utilization. It is used to collect and
+analyze network traffic data to gain insights into network performance,
+security, and troubleshooting.
+NetFlow works by collecting information about the traffic flowing through a
+network device, such as a router or switch, and then exporting that data to a
+NetFlow collector or analyzer for further analysis. The information collected
+includes details about the source and destination of traffic, the types of
+traffic, and the amount of traffic flowing between devices.
+NetFlow is often used by network administrators to identify network
+congestion and bottlenecks, monitor application and user traffic, and detect
+security threats and anomalies. It is also used for capacity planning, network
+performance optimization, and compliance reporting.
+
+Virtual Desktop Infrastructure (VDI) is a technology that
+enables users to access a virtualized desktop environment
+hosted on a remote server or data center. With VDI, instead of
+running applications and storing data on their local computer,
+users access a virtual desktop over a network connection,
+which runs on a server in a remote location.
+VDI typically involves the use of virtualization software, such
+as VMware or Microsoft Hyper-V, to create and manage virtual
+desktops. The virtual desktops are provisioned and managed
+centrally by IT administrators, who can control user access,
+monitor usage, and enforce security policies.
+Users can access their virtual desktop environment from any
+device with an internet connection, including desktops,
+laptops, tablets, and smartphones. This allows for increased
+flexibility and mobility, as users can work from anywhere,
+while still having access to all their applications, data, and
+settings.
+VDI offers several benefits, including centralized management
+and deployment, improved security and data protection,
+reduced hardware and maintenance costs, and simplified
+software updates and patching. It is commonly used in
+enterprise environments, healthcare, education, and other
+industries where users need secure, remote access to their
+desktop environment and applications.
+
+COPE stands for Corporate Owned, Personally Enabled. It refers to a strategy in which
+organizations provide their employees with mobile devices that are owned and managed by the
+organization, but allow the employees to use them for both work and personal purposes.
+Under a COPE model, organizations can provide their employees with smartphones, tablets, laptops,
+or other mobile devices, which are configured with corporate-approved software and security
+policies. The organization retains control over the device, including the ability to remotely wipe it if
+necessary, but employees are allowed to use the device for personal activities, such as accessing
+personal email, social media, or other apps.
+The COPE model is intended to balance the needs of the organization with the preferences and
+convenience of employees. By providing employees with a device that they can use for both work
+and personal purposes, organizations can increase productivity, reduce the need for employees to
+carry multiple devices, and improve employee satisfaction.
+However, implementing a COPE strategy requires careful planning and management to ensure that
+the organization's data and systems remain secure. This may involve implementing mobile device
+management (MDM) software, enforcing security policies, and training employees on best practices
+for using their devices in a secure manner.
+
+AAA (authentication, authorization, and accounting) A security concept where a
+centralized platform verifies subject identification, ensures the subject is assigned
+relevant permissions, and then logs these actions to create an audit trail.
+if you are setting up an e-commerce site and want to enroll users, you need to select
+the appropriate controls to perform each function:
+• Identification—ensure that customers are legitimate. For example, you might need
+to ensure that billing and delivery addresses match and that they are not trying to use
+fraudulent payment methods.
+• Authentication—ensure that customers have unique accounts and that only they can
+manage their orders and billing information.
+• Authorization—rules to ensure customers can place orders only when they have
+valid payment mechanisms in place. You might operate loyalty schemes or
+promotions that authorize certain customers to view unique offers or content.
+• Accounting—the system must record the actions a customer takes (to ensure that
+they cannot deny placing an order, for instance).
+The servers and protocols that implement these functions are referred to as
+authentication, authorization, and accounting (AAA).
+
+
+
+
+---------------------------------------------- 7 ----------------------------------------------
+
+
+
+განსახილველი საკითხები:
+• ფიზიკური წვდომის კონტროლი;
+• ლოგიკური წვდომის კონტროლი;
+• ადმინისტრაციული წვდომის კონტროლი;
+• სავალდებულო წვდომის კონტროლი, დისკრეციული წვდომის კონტროლი;
+• როლზე დაფუძნებული წვდომის კონტროლი, წესზე დაფუძნებული წვდომის კონტროლი;
+• იდენტიფიკაცია, აუთენტიკაცია, ავტორიზაცია, ანგარიშგება;
+• პრევენციული,
+
+შემაკავებელი,
+
+კონტროლის მექანიზმები.
+
+სამძებრო,
+
+გამოსწორებითი,
+
+აღდგენითი,
+
+საკომპენსაციო
+
+Access control refers to the process of managing and restricting access to physical or digital resources. It is a security measure that is used to ensure that
+only authorized individuals are granted access to specific areas or resources.
+Access control systems typically involve the use of technology such as access cards, biometric systems, or passwords, which are used to identify and
+authenticate users. Once a user's identity has been verified, the system will grant or deny access to the requested resource based on the user's permissions
+or clearance level.
+Access control is necessary for a number of reasons, including:
+1.
+
+Security: Access control helps to ensure the safety and security of people and property by limiting access to authorized personnel only. By controlling
+who has access to specific areas or resources, organizations can prevent unauthorized access, theft, and vandalism.
+
+2.
+
+Compliance: Many industries are subject to regulations and compliance requirements that mandate access control as a means of protecting sensitive
+data and information. For example, healthcare facilities, financial institutions, and government agencies are required to comply with strict security
+standards to protect sensitive information.
+
+3.
+
+Liability: Organizations have a legal responsibility to protect employees, customers, and visitors from harm. Access control systems can help to
+mitigate liability risks by preventing unauthorized access to potentially dangerous areas, such as construction sites or hazardous material storage
+areas.
+
+4.
+
+Efficiency: Access control systems can also improve efficiency by streamlining the process of managing access to buildings, rooms, or resources.
+With an access control system, organizations can easily add or remove users, update permissions, and monitor access activity in real-time.
+
+Overall, access control is necessary to protect people, property, and sensitive information, while also ensuring regulatory compliance, mitigating liability
+risks, and improving operational efficiency.
+
+Physical access control
+Physical access controls are security measures that restrict and monitor access to specific physical areas or assets. They can control access to a
+building, to equipment, or to specific areas, such as server rooms, finance or legal areas, data centers, network cable runs, or any other area that
+has hardware or information that is considered to have important value and sensitivity. Determining where to use physical access controls
+requires a cost–benefit analysis and must consider any regulations or other compliance requirements for the specific types of data that are being
+safeguarded. Physical access controls depend on the same access control fundamentals as network or operating system security:
+• Authentication • Authorization • Accounting
+Physical security can be thought of in terms of zones. Each zone should be separated by its own barrier(s). Entry and exit points through the
+barriers need to be controlled by one or more security mechanisms. Progression through each zone should be progressively more restricted.
+
+Identification, authentication, authorization, reporting:
+1. Identification: creating an account or ID that uniquely represents the user, device, or process on the network.
+2. Authentication: proving that a subject is who or what it claims to be when it attempts to access the resource.
+3. Authorization: determining what rights subjects should have on each resource, and enforcing those rights.
+4. Reporting: Reporting is the process of generating reports that provide information about various aspects of the system or
+application. This could include reports on system usage, security incidents, or compliance with regulations and policies.
+
+Logical access control
+Logical access control refers to the use of software-based methods and technologies to restrict access to digital systems,
+applications, and data based on an individual's identity and permissions. This type of access control is used to ensure that only
+authorized users are able to access sensitive information and resources.
+Logical access control systems typically require users to provide some form of authentication, such as a username and password,
+smart card, or biometric scan, before granting access. Once authenticated, the system verifies the user's permissions and grants
+access to the appropriate resources.
+Examples of logical access control include password policies, access control lists, user roles and permissions, multi-factor
+authentication, and single sign-on (SSO) systems. Logical access control is a critical component of information security and is used
+to prevent unauthorized access, data breaches, and other security incidents.
+
+Administrative access control
+Administrative access control refers to the use of policies, procedures, and technologies to manage and restrict access to physical and
+logical resources within an organization. Administrative access control is typically implemented by security administrators or other
+authorized personnel who are responsible for managing and controlling access to systems, networks, and data.
+Administrative access control can include a variety of methods, such as:
+1. Role-based access control (RBAC), which assigns specific roles and permissions to users based on their job function and
+responsibilities.
+2. Mandatory access control (MAC), which uses a hierarchical system of security labels to determine access to resources.
+3. Separation of duties (SoD), which separates sensitive tasks and responsibilities among multiple individuals to prevent any one person
+from having too much control or access.
+4. Least privilege, which grants users only the access and permissions necessary to perform their job functions and restricts access to
+any unnecessary resources.
+5. Access approval workflows, which require review and approval from authorized personnel before granting access to sensitive
+resources.
+Overall, administrative access control plays a crucial role in ensuring the security and integrity of an organization's resources and data,
+and is an important component of any comprehensive security strategy.
+
+Discretionary access control (DAC) is based on the primacy of
+
+Role-based access control (RBAC) adds an extra degree of centralized
+
+the resource owner. The owner is originally the creator of a file or
+
+control to the DAC model. Under RBAC, a set of organizational roles are
+
+service, though ownership can be assigned to another user. The
+
+defined, and subjects allocated to those roles. Under this system, the right to
+
+owner is granted full control over the resource, meaning that he or
+
+modify roles is reserved to a system owner. Therefore, the system is non-
+
+she can modify its access control list (ACL) to grant rights to
+
+discretionary, as each subject account has no right to modify the ACL of a
+
+others. DAC is the most flexible model and is currently
+
+resource, even though they may be able to change the resource in other ways.
+
+implemented widely in terms of computer and network security. In
+
+Users are said to gain rights implicitly (through being assigned to a role)
+
+terms of file system security, it is the model used by default for
+
+rather than explicitly (being assigned the right directly).
+
+most UNIX/Linux distributions and by Microsoft Windows. As the
+most flexible model, it is also the weakest because it makes
+centralized administration of security policies the most difficult to
+enforce. It is also the easiest to compromise, as it is vulnerable to
+insider threats and abuse of compromised accounts.
+
+RBAC can be partially implemented through the use of security group
+accounts, but they are not identical schemes. Membership of security groups
+is largely discretionary (assigned by administrators, rather than determined
+by the system). Also, ideally, a subject should only inherit the permissions of
+a role to complete a particular task rather than retain them permanently.
+
+Rule-based access control - A non-discretionary access control technique that is based on a set of operational rules or restrictions to enforce a least
+privileges permissions policy. Rule-based access control is a term that can refer to any sort of access control model where access control policies are
+determined by system-enforced rules rather than system users. As such, RBAC, ABAC, and MAC are all examples of rule-based (or nondiscretionary)
+access control. As well as the formal models, rule-based access control principles are increasingly being implemented to protect computer and network
+systems founded on discretionary access from the sort of misconfiguration that can occur through DAC.
+
+Preventive, restraining, search, corrective, restorative, compensatory control mechanisms are types of control mechanisms used in various
+fields to prevent or address different types of problems. Here's a brief overview of each:
+Preventive Control Mechanisms: These are mechanisms designed to prevent a problem or issue from occurring in the
+first place. They involve identifying potential risks and taking action to mitigate them before they can cause harm. Examples
+of preventive control mechanisms include regular maintenance of equipment to prevent breakdowns, background checks for
+new employees to prevent hiring those with a history of criminal activity, and fire safety training to prevent fires.
+Restraining Control Mechanisms: These are mechanisms designed to limit or control behavior that could lead to a
+problem or issue. They are often used to prevent harm or damage to people or property. Examples of restraining control
+mechanisms include security guards at a concert to prevent unruly behavior, fences around construction sites to prevent
+unauthorized access, and locks on doors and windows to prevent burglary.
+Search Control Mechanisms: These are mechanisms designed to search for potential problems or issues before they can
+cause harm. They involve looking for signs or indicators of a problem or issue and taking action to address it before it
+becomes a bigger problem. Examples of search control mechanisms include regular inspections of equipment to identify
+potential problems, monitoring employee behavior to identify signs of fraud or theft, and monitoring social media for
+mentions of a company's products or services.
+Corrective Control Mechanisms: These are mechanisms designed to correct a problem or issue after it has occurred.
+They involve taking action to fix the problem or issue and prevent it from happening again in the future. Examples of
+corrective control mechanisms include recalling a product that has been found to be defective, disciplining an employee who
+has violated company policies, and repairing equipment that has broken down.
+
+
