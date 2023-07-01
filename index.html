@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Document</title>
+</head>
+<body height='1000'>
+  
+--------------------- dav 4 (digitalizacia) ---------------------
+
+folders:
+
+Shp
+Project
+
+shp -> layer(zemot) -> create layer -> new shapefile layer..... zone wgs 38n
+
+---------------------------------------------------------------
+
+
+------------------- dav 5 (GPS) ---------------------
+
+gps folders:
+
+GPS -> excel .csv files
+Raster -> GeoTaggedPhotos
+Shp -> .shp files
+
+plugin ImportPhotos
+
+layer -> data source manager -> delimeted text -> select .csv (excel) file -> select zone (zone = file name) -> add;
+then export: export -> save features as -> ERSI Shapefile -> name as zone -> uncheck checkbox in the bottom -> ok
+then  remove layer.
+
+repeat this for each excel file
+
+------------------------------------------------------------------------------------
+
+
+
+
+
+--------------------- dav 6 (db) ---------------------
+
+folders: Geodatabase, Project, Shp
+
+plugin DB Manager (may be already installed) 
+
+then right click on top navbar -> check "Database Toolbar"
+
+spacialLite (on the left bar scroll to bottom) -> create database -> create in Geodatabase
+
+then db manager -> spacialLite -> import vector layer -> choose geometry type (saxli, gza, mdinare...) 
+then import another vector layer
+
+then for each layer in the menu: right click -> change data source -> choose appropriate shape file from the database (gza - gza, xidi - xidi...)
+
+then right click on layer (in menu) -> open attribute table.......
+
+save attribute before stopping editing (before clicking on pencil)
+
+then save project and zip
+
+------------------------------------------------------------------------------------
+
+
+7
+
+vertex tool + snapping (magnet on the left), then edit arrtibutes
+
+
+
+დამწყებმა  გის ოპერატორმა დაუშვა ‘შეცდომები’, მათ შორის, რაც გააჩნდა ყველა მასალა ჩაყარა 1
+საქაღალდეში და გამოგიგზავნათ. 
+არცერთი პროგრამული უზრუნველყოფა არ გჭირდებათ რეალურად თუ რაიმეს გადამოწმება არ
+გსურთ. საჭიროა მხოლოდ ფაილური მენეჯერი.
+5.1) უნდა მოაწესრიგოთ საქაღალდეების სტრუქტურა. 
+მაგალითად:
+Geodatabase
+Shp
+Raster და ა.შ საჭიროებისამებრ!
+5.2) ჩაყაროთ ფაილები  შესაბამის საქაღალდეებში.
+მაგალითად:
+.kml ფაილი kml საქაღალდეში
+.dxf .dwg ფაილი CAD საქაღალდეში და ა.შ
+5.3) თუ ფიქრობთ რომ საქაღალდე აკლია დაამატეთ, თუ ზედმეტია წაშალეთ, თუ სახელი
+გადასარქმევია გადაარქვით, ყველაფრის უფლება გაქვთ.
+ფაილების რაოდენობა განსაზღვრულია, თუ წაშლით რომელიმეს თავიდან მოშორების მიზნით
+დაგაკლდებათ ქულა(ები).
+წაიკითხეთ
+გადაიმეორეთ საქაღალდეების სტრუქტურა, რა რას ემსახურება.
+გაიხსენეთ რა ფორმატები ვისწავლეთ
+QGIS, Google Earth, Google Map, რასტრული მონაცემების, დოკუმენტების და ა.შ
+"ზოგიერთ მათგანს"(არა ყველას) აქვე გთავაზობთ გადასახედად.
+
+ფორმატები
+.qpt - QGIS Composer Template - გაფორმება(Layout)
+.qgz - QGIS Project - პროექტის ფაილი
+.QML - QGIS Layer Settings - სტილი
+.QMD - მეტამონაცემები
+.XML - სანიშნე (ამ შემთხვევაში, სხვა დროს სხვა საქმეში შეიძლება იყოს ეს ფორმატი,
+მონაცემთა ბაზა შეიძლება.)
+.mdb .gdb .sqlite მონაცემთა ბაზები
+.DXF .DWG ხაზვითი ფორმატები
+.KML .KMZ Google ფორმატები
+
+საქაღალდეები
+
+Geodatabase (გეომონაცემთა ბაზების შესანახი)
+Table (ცხრილების, ექსელის ცხრილების შესანახი)
+Shp (ვექტორული ფაილების შესანახი)
+Documents (ექსელის, ვორდის, ფავერფოინთის, PDF, სხვა ნებისმიერი მსგავსი დოკუმენტის შესანახი)
+GPS (სხვადასხვა კოორდინატების, მათ შორის ექსელის ფაილში არსებული ფორმატის შესანახი)
+Project (პროექტის ფაილის შესანახი)
+Raster (რასტრის იგივე მკვდარი გამოსახულების, სურათების, აეროგადაღებების შესანახი)
+Image, 2. GeoImage, 3. GeoTaggedPhotos, 4. Ortho 5. XML
+(XML ფაილებს დააკვირდით სახელი რა აწერია, სახელი გეტყვით ფუნქციონალს და დანიშნულებას პროგრამული შემოწმების გარეშე.)
+Fonts (პროექტში გამოყენებული ფონტების შესანახი)
+GCP Points (გეორეფერენსირების ბოლოს წერტილების შენახვის შემთხვევაში)
+Bookmark (სანიშნეები)
+DWG/DXF მხაზველობითი ტიპის CAD ფორმატის ფაილები
+KML/KMZ ფორმატის ფაილები Google Earth და Google Maps - თან სამუშაოდ
+Styles სტილების შესანახი
+Metadata ინფორმაცია ინფორმაციის შესახებ, იგივე მეტამონაცემები
+HTML Statistics სტატისტიკის შესანახად
+Layout (გაფორმების შესანახი)
+
+</body>
+</html>
+
